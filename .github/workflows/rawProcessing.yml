@@ -1,0 +1,24 @@
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+    paths:
+      - 'mapFingerprintRaw.json'
+      - 'processRaw.js'
+  workflow_dispatch:
+jobs:
+  rawProcessing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js 23.8.0
+        uses: actions/setup-node@v4
+        with:
+          node-version: 23.8.0
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm install
+      - name: Run processRaws
+        run: node processRaw.js
