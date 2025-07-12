@@ -67,13 +67,17 @@ async function main() {
 				map_obj.map_name = [file.name.replace(/\.json$/, '')];	// Set the map name to the file name without the .json extension
 				outputData.x[xCoords[index]] = {};
 				outputData.y[yCoords[index]] = {};
-				if(outputData.x[xCoords[index]][yCoords[index]]) {
-					const existingIndex = outputData.x[xCoords[index]][yCoords[index]].findIndex((obj) => isSameMap_Obj(obj, map_obj));
-					if(existingIndex == -1) {
-						outputData.x[xCoords[index]][yCoords[index]][existingIndex].map_name.push(map_obj.map_name[0]);		// If the map object is not already in the array, add it
-					}else {
+				if(outputData.x[xCoords[index]][yCoords[index]]) {		// If the x and y coordinates already exist in the outputData, handle the map_obj
+					const existingIndex = outputData.x[xCoords[index]][yCoords[index]].findIndex((obj) => isSameMap_Obj(obj, map_obj));	// Check if the map_obj already exists in the outputData
+					if(existingIndex != -1) {	// If the map_obj already exists, update it
+						if(!outputData.x[xCoords[index]][yCoords[index]][existingIndex].map_name.includes(map_obj.map_name[0])) {		// If the map name is not already in the map_name array, push it
+							outputData.x[xCoords[index]][yCoords[index]][existingIndex].map_name.push(map_obj.map_name[0]);
+						}
+					}else {	// If the map_obj does not exist, push it to the outputData
 						outputData.x[xCoords[index]][yCoords[index]].push(map_obj);
 					}
+				}else {	// If the x and y coordinates do not exist in the outputData, create them and push the map_obj
+					outputData.x[xCoords[index]][yCoords[index]] = [map_obj];
 				}
 			});
 		});
