@@ -1,0 +1,2244 @@
+{
+  "[Domination #2] Second Battle of El Alamein": [
+    {
+      "mission": {
+        "objectives": [
+          {
+            "primary": true,
+            "status": "in_progress",
+            "text": "Capture and maintain superiority over the points ╸,╹,╺"
+          }
+        ],
+        "status": "running"
+      },
+      "map_obj": [
+        {
+          "type": "airfield",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.466766,
+          "sy": 0.400756,
+          "ex": 0.470522,
+          "ey": 0.401419,
+          "team": "friendly"
+        },
+        {
+          "type": "airfield",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.594112,
+          "sy": 0.401242,
+          "ex": 0.590376,
+          "ey": 0.402016,
+          "team": "enemy"
+        },
+        {
+          "type": "airfield",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.408139,
+          "sy": 0.376621,
+          "ex": 0.415367,
+          "ey": 0.379062,
+          "team": "friendly"
+        },
+        {
+          "type": "airfield",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.657557,
+          "sy": 0.38196,
+          "ex": 0.650524,
+          "ey": 0.384916,
+          "team": "enemy"
+        },
+        {
+          "type": "airfield",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.3388,
+          "sy": 0.341366,
+          "ex": 0.383265,
+          "ey": 0.361541,
+          "team": "friendly"
+        },
+        {
+          "type": "airfield",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.727822,
+          "sy": 0.34982,
+          "ex": 0.682147,
+          "ey": 0.367084,
+          "team": "enemy"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.37824,
+          "y": 0.36567,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.376572,
+          "y": 0.362126,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.36712,
+          "y": 0.360394,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.370638,
+          "y": 0.360672,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.360265,
+          "y": 0.357568,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.358919,
+          "y": 0.355416,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.34558,
+          "y": 0.350516,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.34558,
+          "y": 0.350516,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.339517,
+          "y": 0.34968,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.34301,
+          "y": 0.345929,
+          "team": "friendly"
+        },
+        {
+          "type": "capture_zone",
+          "color": "#ffFFFA",
+          "color[]": [
+            255,
+            255,
+            250
+          ],
+          "blink": 0,
+          "icon": "capture_zone",
+          "icon_bg": "none",
+          "x": 0.511875,
+          "y": 0.487218,
+          "team": null
+        },
+        {
+          "type": "capture_zone",
+          "color": "#ffFFFA",
+          "color[]": [
+            255,
+            255,
+            250
+          ],
+          "blink": 0,
+          "icon": "capture_zone",
+          "icon_bg": "none",
+          "x": 0.519621,
+          "y": 0.479746,
+          "team": null
+        },
+        {
+          "type": "capture_zone",
+          "color": "#ffFFFA",
+          "color[]": [
+            255,
+            255,
+            250
+          ],
+          "blink": 0,
+          "icon": "capture_zone",
+          "icon_bg": "none",
+          "x": 0.527,
+          "y": 0.473523,
+          "team": null
+        },
+        {
+          "type": "respawn_base_fighter",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_fighter",
+          "icon_bg": "none",
+          "x": 0.150443,
+          "y": 0.470446,
+          "dx": 300.001007,
+          "dy": -0.000244,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_fighter",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_fighter",
+          "icon_bg": "none",
+          "x": 0.913239,
+          "y": 0.470391,
+          "dx": -299.984985,
+          "dy": 3.09246,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516342,
+          "y": 0.470921,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515763,
+          "y": 0.471106,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.51604,
+          "y": 0.470947,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516562,
+          "y": 0.470556,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515525,
+          "y": 0.470927,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515892,
+          "y": 0.470558,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515567,
+          "y": 0.470565,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515977,
+          "y": 0.4702,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514488,
+          "y": 0.47075,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.51553,
+          "y": 0.470258,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514157,
+          "y": 0.470821,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516145,
+          "y": 0.469937,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515731,
+          "y": 0.470047,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514748,
+          "y": 0.470448,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516635,
+          "y": 0.469608,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.51501,
+          "y": 0.470251,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515884,
+          "y": 0.469794,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514368,
+          "y": 0.470401,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515475,
+          "y": 0.46988,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516385,
+          "y": 0.469425,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515112,
+          "y": 0.469886,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514555,
+          "y": 0.470103,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514822,
+          "y": 0.469979,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516647,
+          "y": 0.469193,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516639,
+          "y": 0.468876,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528128,
+          "y": 0.484578,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.527938,
+          "y": 0.485252,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.52815,
+          "y": 0.484999,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528528,
+          "y": 0.48436,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528417,
+          "y": 0.484675,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528786,
+          "y": 0.484205,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528198,
+          "y": 0.485445,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528436,
+          "y": 0.485205,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528742,
+          "y": 0.484632,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528599,
+          "y": 0.48494,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529239,
+          "y": 0.483873,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529147,
+          "y": 0.48419,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528996,
+          "y": 0.484489,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529511,
+          "y": 0.483707,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528734,
+          "y": 0.485214,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528957,
+          "y": 0.484901,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529471,
+          "y": 0.48405,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529405,
+          "y": 0.484328,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529284,
+          "y": 0.48461,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529022,
+          "y": 0.485402,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529825,
+          "y": 0.483925,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529727,
+          "y": 0.484226,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529261,
+          "y": 0.485171,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529436,
+          "y": 0.484871,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529622,
+          "y": 0.48456,
+          "team": "enemy"
+        }
+      ],
+      "mapInfo": {
+        "grid_size": [
+          65536,
+          65536
+        ],
+        "grid_steps": [
+          6500,
+          6500
+        ],
+        "grid_zero": [
+          -32768,
+          32768
+        ],
+        "hud_type": 0,
+        "map_generation": 2,
+        "map_max": [
+          32768,
+          32768
+        ],
+        "map_min": [
+          -32768,
+          -32768
+        ],
+        "valid": true
+      }
+    },
+    {
+      "mission": {
+        "objectives": [
+          {
+            "primary": true,
+            "status": "in_progress",
+            "text": "Capture and maintain superiority over the points ╸,╹,╺"
+          }
+        ],
+        "status": "running"
+      },
+      "map_obj": [
+        {
+          "type": "airfield",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.466766,
+          "sy": 0.400756,
+          "ex": 0.470522,
+          "ey": 0.401419,
+          "team": "enemy"
+        },
+        {
+          "type": "airfield",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.594112,
+          "sy": 0.401242,
+          "ex": 0.590376,
+          "ey": 0.402016,
+          "team": "friendly"
+        },
+        {
+          "type": "airfield",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.408139,
+          "sy": 0.376621,
+          "ex": 0.415367,
+          "ey": 0.379062,
+          "team": "enemy"
+        },
+        {
+          "type": "airfield",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.657557,
+          "sy": 0.38196,
+          "ex": 0.650524,
+          "ey": 0.384916,
+          "team": "friendly"
+        },
+        {
+          "type": "airfield",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.3388,
+          "sy": 0.341366,
+          "ex": 0.383265,
+          "ey": 0.361541,
+          "team": "enemy"
+        },
+        {
+          "type": "airfield",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.727822,
+          "sy": 0.34982,
+          "ex": 0.682147,
+          "ey": 0.367084,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.682768,
+          "y": 0.36061,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.686456,
+          "y": 0.361929,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.701194,
+          "y": 0.353593,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.703668,
+          "y": 0.354157,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.716554,
+          "y": 0.348165,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.716554,
+          "y": 0.348165,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.721425,
+          "y": 0.34446,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.694355,
+          "y": 0.356455,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.691674,
+          "y": 0.358751,
+          "team": "friendly"
+        },
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.721617,
+          "y": 0.349582,
+          "team": "friendly"
+        },
+        {
+          "type": "capture_zone",
+          "color": "#ffFFFA",
+          "color[]": [
+            255,
+            255,
+            250
+          ],
+          "blink": 0,
+          "icon": "capture_zone",
+          "icon_bg": "none",
+          "x": 0.511875,
+          "y": 0.487218,
+          "team": null
+        },
+        {
+          "type": "capture_zone",
+          "color": "#ffFFFA",
+          "color[]": [
+            255,
+            255,
+            250
+          ],
+          "blink": 0,
+          "icon": "capture_zone",
+          "icon_bg": "none",
+          "x": 0.519621,
+          "y": 0.479746,
+          "team": null
+        },
+        {
+          "type": "capture_zone",
+          "color": "#ffFFFA",
+          "color[]": [
+            255,
+            255,
+            250
+          ],
+          "blink": 0,
+          "icon": "capture_zone",
+          "icon_bg": "none",
+          "x": 0.527,
+          "y": 0.473523,
+          "team": null
+        },
+        {
+          "type": "respawn_base_fighter",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_fighter",
+          "icon_bg": "none",
+          "x": 0.150443,
+          "y": 0.470446,
+          "dx": 300.001007,
+          "dy": -0.000244,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_fighter",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_fighter",
+          "icon_bg": "none",
+          "x": 0.913239,
+          "y": 0.470391,
+          "dx": -299.984985,
+          "dy": 3.09246,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516342,
+          "y": 0.470921,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515763,
+          "y": 0.471106,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.51604,
+          "y": 0.470947,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516562,
+          "y": 0.470556,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515525,
+          "y": 0.470927,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515892,
+          "y": 0.470558,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515567,
+          "y": 0.470565,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515977,
+          "y": 0.4702,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514488,
+          "y": 0.47075,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.51553,
+          "y": 0.470258,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514157,
+          "y": 0.470821,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516145,
+          "y": 0.469937,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515731,
+          "y": 0.470047,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514748,
+          "y": 0.470448,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516635,
+          "y": 0.469608,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.51501,
+          "y": 0.470251,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515884,
+          "y": 0.469794,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514368,
+          "y": 0.470401,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515475,
+          "y": 0.46988,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516385,
+          "y": 0.469425,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515112,
+          "y": 0.469886,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514555,
+          "y": 0.470103,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514822,
+          "y": 0.469979,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516647,
+          "y": 0.469193,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516639,
+          "y": 0.468876,
+          "team": "enemy"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528128,
+          "y": 0.484578,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.527938,
+          "y": 0.485252,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.52815,
+          "y": 0.484999,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528528,
+          "y": 0.48436,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528417,
+          "y": 0.484675,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528786,
+          "y": 0.484205,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528198,
+          "y": 0.485445,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528436,
+          "y": 0.485205,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528742,
+          "y": 0.484632,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528599,
+          "y": 0.48494,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529239,
+          "y": 0.483873,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529147,
+          "y": 0.48419,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528996,
+          "y": 0.484489,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529511,
+          "y": 0.483707,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528734,
+          "y": 0.485214,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528957,
+          "y": 0.484901,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529471,
+          "y": 0.48405,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529405,
+          "y": 0.484328,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529284,
+          "y": 0.48461,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529022,
+          "y": 0.485402,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529825,
+          "y": 0.483925,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529727,
+          "y": 0.484226,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529261,
+          "y": 0.485171,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529436,
+          "y": 0.484871,
+          "team": "friendly"
+        },
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529622,
+          "y": 0.48456,
+          "team": "friendly"
+        }
+      ],
+      "mapInfo": {
+        "grid_size": [
+          65536,
+          65536
+        ],
+        "grid_steps": [
+          6500,
+          6500
+        ],
+        "grid_zero": [
+          -32768,
+          32768
+        ],
+        "hud_type": 0,
+        "map_generation": 2,
+        "map_max": [
+          32768,
+          32768
+        ],
+        "map_min": [
+          -32768,
+          -32768
+        ],
+        "valid": true
+      }
+    }
+  ]
+}
