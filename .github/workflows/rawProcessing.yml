@@ -1,0 +1,39 @@
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'mapFingerprintRaw.json'
+      - 'processRaw.js'
+      - 'mapFingerprints/**'
+      - 'mapFingerprintsDB.json'
+jobs:
+  rawProcessing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          sparse-checkout: |
+            mapFingerprintRaw.json
+            processRaw.js
+            mapFingerprints/
+            mapFingerprintsDB.json
+      - name: Use Node.js 23.8.0
+        uses: actions/setup-node@v4
+        with:
+          node-version: 23.8.0
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm install
+      - name: TEST
+        run: ls
+      - name: Run processRaws
+        run: node processRaw.js
+      - name: Commit processed file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "processed-fingerprints" "mapFingerprints/**"
+          git push
