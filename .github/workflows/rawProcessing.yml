@@ -1,6 +1,5 @@
 on:
   pull_request:
-    types: [opened]
     branches:
       - main
     paths:
@@ -29,8 +28,6 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm install
-      - name: TEST
-        run: ls
       - name: Run processRaws
         run: node processRaw.js
       - name: Commit processed file
