@@ -6,7 +6,6 @@ on:
       - 'mapFingerprintRaw.json'
       - 'processRaw.js'
       - 'mapFingerprints/**'
-  workflow_dispatch:
 jobs:
   rawProcessing:
     runs-on: ubuntu-latest
