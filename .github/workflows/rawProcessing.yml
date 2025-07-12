@@ -6,6 +6,7 @@ on:
       - 'mapFingerprintRaw.json'
       - 'processRaw.js'
       - 'mapFingerprints/**'
+      - 'mapFingerprintsDB.json'
 jobs:
   rawProcessing:
     runs-on: ubuntu-latest
@@ -17,7 +18,8 @@ jobs:
           sparse-checkout: |
             mapFingerprintRaw.json
             processRaw.js
-            mapFingerprints/**
+            mapFingerprints/
+            mapFingerprintsDB.json
       - name: Use Node.js 23.8.0
         uses: actions/setup-node@v4
         with:
