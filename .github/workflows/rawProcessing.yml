@@ -4,9 +4,6 @@ on:
       - main
     paths:
       - 'mapFingerprintRaw.json'
-      - 'processRaw.js'
-      - 'mapFingerprints/**'
-      - 'mapFingerprintsDB.json'
 jobs:
   rawProcessing:
     runs-on: ubuntu-latest
