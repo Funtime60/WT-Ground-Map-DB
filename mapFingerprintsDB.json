@@ -1,0 +1,2036 @@
+{
+  "x": {
+    "0.470522": {
+      "0.401419": [
+        {
+          "type": "airfield",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.466766,
+          "sy": 0.400756,
+          "ex": 0.470522,
+          "ey": 0.401419,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.466766": {
+      "0.400756": [
+        {
+          "type": "airfield",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.466766,
+          "sy": 0.400756,
+          "ex": 0.470522,
+          "ey": 0.401419,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.590376": {
+      "0.402016": [
+        {
+          "type": "airfield",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.594112,
+          "sy": 0.401242,
+          "ex": 0.590376,
+          "ey": 0.402016,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.594112": {
+      "0.401242": [
+        {
+          "type": "airfield",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.594112,
+          "sy": 0.401242,
+          "ex": 0.590376,
+          "ey": 0.402016,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.415367": {
+      "0.379062": [
+        {
+          "type": "airfield",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.408139,
+          "sy": 0.376621,
+          "ex": 0.415367,
+          "ey": 0.379062,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.408139": {
+      "0.376621": [
+        {
+          "type": "airfield",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.408139,
+          "sy": 0.376621,
+          "ex": 0.415367,
+          "ey": 0.379062,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.650524": {
+      "0.384916": [
+        {
+          "type": "airfield",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.657557,
+          "sy": 0.38196,
+          "ex": 0.650524,
+          "ey": 0.384916,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.657557": {
+      "0.38196": [
+        {
+          "type": "airfield",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.657557,
+          "sy": 0.38196,
+          "ex": 0.650524,
+          "ey": 0.384916,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.383265": {
+      "0.361541": [
+        {
+          "type": "airfield",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.3388,
+          "sy": 0.341366,
+          "ex": 0.383265,
+          "ey": 0.361541,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.3388": {
+      "0.341366": [
+        {
+          "type": "airfield",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.3388,
+          "sy": 0.341366,
+          "ex": 0.383265,
+          "ey": 0.361541,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.682147": {
+      "0.367084": [
+        {
+          "type": "airfield",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.727822,
+          "sy": 0.34982,
+          "ex": 0.682147,
+          "ey": 0.367084,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.727822": {
+      "0.34982": [
+        {
+          "type": "airfield",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "none",
+          "icon_bg": "none",
+          "sx": 0.727822,
+          "sy": 0.34982,
+          "ex": 0.682147,
+          "ey": 0.367084,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.37824": {
+      "0.36567": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.37824,
+          "y": 0.36567,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.376572": {
+      "0.362126": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.376572,
+          "y": 0.362126,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.36712": {
+      "0.360394": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.36712,
+          "y": 0.360394,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.370638": {
+      "0.360672": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.370638,
+          "y": 0.360672,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.360265": {
+      "0.357568": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.360265,
+          "y": 0.357568,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.358919": {
+      "0.355416": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.358919,
+          "y": 0.355416,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.34558": {
+      "0.350516": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.34558,
+          "y": 0.350516,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.339517": {
+      "0.34968": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.339517,
+          "y": 0.34968,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.34301": {
+      "0.345929": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.34301,
+          "y": 0.345929,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.511875": {
+      "0.487218": [
+        {
+          "type": "capture_zone",
+          "color": "#ffFFFA",
+          "color[]": [
+            255,
+            255,
+            250
+          ],
+          "blink": 0,
+          "icon": "capture_zone",
+          "icon_bg": "none",
+          "x": 0.511875,
+          "y": 0.487218,
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.519621": {
+      "0.479746": [
+        {
+          "type": "capture_zone",
+          "color": "#ffFFFA",
+          "color[]": [
+            255,
+            255,
+            250
+          ],
+          "blink": 0,
+          "icon": "capture_zone",
+          "icon_bg": "none",
+          "x": 0.519621,
+          "y": 0.479746,
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.527": {
+      "0.473523": [
+        {
+          "type": "capture_zone",
+          "color": "#ffFFFA",
+          "color[]": [
+            255,
+            255,
+            250
+          ],
+          "blink": 0,
+          "icon": "capture_zone",
+          "icon_bg": "none",
+          "x": 0.527,
+          "y": 0.473523,
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.150443": {
+      "0.470446": [
+        {
+          "type": "respawn_base_fighter",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_fighter",
+          "icon_bg": "none",
+          "x": 0.150443,
+          "y": 0.470446,
+          "dx": 300.001007,
+          "dy": -0.000244,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "300.001007": {
+      "-0.000244": [
+        {
+          "type": "respawn_base_fighter",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_fighter",
+          "icon_bg": "none",
+          "x": 0.150443,
+          "y": 0.470446,
+          "dx": 300.001007,
+          "dy": -0.000244,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.913239": {
+      "0.470391": [
+        {
+          "type": "respawn_base_fighter",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_fighter",
+          "icon_bg": "none",
+          "x": 0.913239,
+          "y": 0.470391,
+          "dx": -299.984985,
+          "dy": 3.09246,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "-299.984985": {
+      "3.09246": [
+        {
+          "type": "respawn_base_fighter",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_fighter",
+          "icon_bg": "none",
+          "x": 0.913239,
+          "y": 0.470391,
+          "dx": -299.984985,
+          "dy": 3.09246,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.516342": {
+      "0.470921": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516342,
+          "y": 0.470921,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.515763": {
+      "0.471106": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515763,
+          "y": 0.471106,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.51604": {
+      "0.470947": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.51604,
+          "y": 0.470947,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.516562": {
+      "0.470556": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516562,
+          "y": 0.470556,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.515525": {
+      "0.470927": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515525,
+          "y": 0.470927,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.515892": {
+      "0.470558": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515892,
+          "y": 0.470558,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.515567": {
+      "0.470565": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515567,
+          "y": 0.470565,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.515977": {
+      "0.4702": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515977,
+          "y": 0.4702,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.514488": {
+      "0.47075": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514488,
+          "y": 0.47075,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.51553": {
+      "0.470258": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.51553,
+          "y": 0.470258,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.514157": {
+      "0.470821": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514157,
+          "y": 0.470821,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.516145": {
+      "0.469937": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516145,
+          "y": 0.469937,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.515731": {
+      "0.470047": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515731,
+          "y": 0.470047,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.514748": {
+      "0.470448": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514748,
+          "y": 0.470448,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.516635": {
+      "0.469608": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516635,
+          "y": 0.469608,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.51501": {
+      "0.470251": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.51501,
+          "y": 0.470251,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.515884": {
+      "0.469794": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515884,
+          "y": 0.469794,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.514368": {
+      "0.470401": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514368,
+          "y": 0.470401,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.515475": {
+      "0.46988": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515475,
+          "y": 0.46988,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.516385": {
+      "0.469425": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516385,
+          "y": 0.469425,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.515112": {
+      "0.469886": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.515112,
+          "y": 0.469886,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.514555": {
+      "0.470103": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514555,
+          "y": 0.470103,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.514822": {
+      "0.469979": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.514822,
+          "y": 0.469979,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.516647": {
+      "0.469193": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516647,
+          "y": 0.469193,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.516639": {
+      "0.468876": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.516639,
+          "y": 0.468876,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.528128": {
+      "0.484578": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528128,
+          "y": 0.484578,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.527938": {
+      "0.485252": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.527938,
+          "y": 0.485252,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.52815": {
+      "0.484999": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.52815,
+          "y": 0.484999,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.528528": {
+      "0.48436": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528528,
+          "y": 0.48436,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.528417": {
+      "0.484675": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528417,
+          "y": 0.484675,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.528786": {
+      "0.484205": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528786,
+          "y": 0.484205,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.528198": {
+      "0.485445": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528198,
+          "y": 0.485445,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.528436": {
+      "0.485205": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528436,
+          "y": 0.485205,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.528742": {
+      "0.484632": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528742,
+          "y": 0.484632,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.528599": {
+      "0.48494": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528599,
+          "y": 0.48494,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.529239": {
+      "0.483873": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529239,
+          "y": 0.483873,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.529147": {
+      "0.48419": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529147,
+          "y": 0.48419,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.528996": {
+      "0.484489": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528996,
+          "y": 0.484489,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.529511": {
+      "0.483707": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529511,
+          "y": 0.483707,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.528734": {
+      "0.485214": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528734,
+          "y": 0.485214,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.528957": {
+      "0.484901": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.528957,
+          "y": 0.484901,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.529471": {
+      "0.48405": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529471,
+          "y": 0.48405,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.529405": {
+      "0.484328": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529405,
+          "y": 0.484328,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.529284": {
+      "0.48461": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529284,
+          "y": 0.48461,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.529022": {
+      "0.485402": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529022,
+          "y": 0.485402,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.529825": {
+      "0.483925": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529825,
+          "y": 0.483925,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.529727": {
+      "0.484226": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529727,
+          "y": 0.484226,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.529261": {
+      "0.485171": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529261,
+          "y": 0.485171,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.529436": {
+      "0.484871": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529436,
+          "y": 0.484871,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.529622": {
+      "0.48456": [
+        {
+          "type": "respawn_base_tank",
+          "color": "#fa0C00",
+          "color[]": [
+            250,
+            12,
+            0
+          ],
+          "blink": 0,
+          "icon": "respawn_base_tank",
+          "icon_bg": "none",
+          "x": 0.529622,
+          "y": 0.48456,
+          "team": "team2",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.682768": {
+      "0.36061": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.682768,
+          "y": 0.36061,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.686456": {
+      "0.361929": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.686456,
+          "y": 0.361929,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.701194": {
+      "0.353593": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.701194,
+          "y": 0.353593,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.703668": {
+      "0.354157": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.703668,
+          "y": 0.354157,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.716554": {
+      "0.348165": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.716554,
+          "y": 0.348165,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.721425": {
+      "0.34446": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.721425,
+          "y": 0.34446,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.694355": {
+      "0.356455": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.694355,
+          "y": 0.356455,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.691674": {
+      "0.358751": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.691674,
+          "y": 0.358751,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    },
+    "0.721617": {
+      "0.349582": [
+        {
+          "type": "ground_model",
+          "color": "#174DFF",
+          "color[]": [
+            23,
+            77,
+            255
+          ],
+          "blink": 0,
+          "icon": "Airdefence",
+          "icon_bg": "none",
+          "x": 0.721617,
+          "y": 0.349582,
+          "team": "team1",
+          "map_name": [
+            "[Domination #2] Second Battle of El Alamein"
+          ]
+        }
+      ]
+    }
+  },
+  "y": {
+    "0.401419": {},
+    "0.400756": {},
+    "0.402016": {},
+    "0.401242": {},
+    "0.379062": {},
+    "0.376621": {},
+    "0.384916": {},
+    "0.38196": {},
+    "0.361541": {},
+    "0.341366": {},
+    "0.367084": {},
+    "0.34982": {},
+    "0.36567": {},
+    "0.362126": {},
+    "0.360394": {},
+    "0.360672": {},
+    "0.357568": {},
+    "0.355416": {},
+    "0.350516": {},
+    "0.34968": {},
+    "0.345929": {},
+    "0.487218": {},
+    "0.479746": {},
+    "0.473523": {},
+    "0.470446": {},
+    "-0.000244": {},
+    "0.470391": {},
+    "3.09246": {},
+    "0.470921": {},
+    "0.471106": {},
+    "0.470947": {},
+    "0.470556": {},
+    "0.470927": {},
+    "0.470558": {},
+    "0.470565": {},
+    "0.4702": {},
+    "0.47075": {},
+    "0.470258": {},
+    "0.470821": {},
+    "0.469937": {},
+    "0.470047": {},
+    "0.470448": {},
+    "0.469608": {},
+    "0.470251": {},
+    "0.469794": {},
+    "0.470401": {},
+    "0.46988": {},
+    "0.469425": {},
+    "0.469886": {},
+    "0.470103": {},
+    "0.469979": {},
+    "0.469193": {},
+    "0.468876": {},
+    "0.484578": {},
+    "0.485252": {},
+    "0.484999": {},
+    "0.48436": {},
+    "0.484675": {},
+    "0.484205": {},
+    "0.485445": {},
+    "0.485205": {},
+    "0.484632": {},
+    "0.48494": {},
+    "0.483873": {},
+    "0.48419": {},
+    "0.484489": {},
+    "0.483707": {},
+    "0.485214": {},
+    "0.484901": {},
+    "0.48405": {},
+    "0.484328": {},
+    "0.48461": {},
+    "0.485402": {},
+    "0.483925": {},
+    "0.484226": {},
+    "0.485171": {},
+    "0.484871": {},
+    "0.48456": {},
+    "0.36061": {},
+    "0.361929": {},
+    "0.353593": {},
+    "0.354157": {},
+    "0.348165": {},
+    "0.34446": {},
+    "0.356455": {},
+    "0.358751": {},
+    "0.349582": {}
+  }
+}
