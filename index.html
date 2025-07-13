@@ -19,9 +19,13 @@
 					const li = Object.assign(document.createElement("li"), {textContent: data[key].full_ID || key});
 					listUl.appendChild(li);
 					li.addEventListener("contextmenu", (e) => {
-						e.preventDefault
+						e.preventDefault();
 						const mapData = data[key];
 						alert(`Map Name: ${mapData.map_name}\nBattle Rating: ${mapData.battle_rating}\nCapture Team: ${mapData.capture_team}\nCapture Type: ${mapData.capture_type}`);
+					});
+					li.addEventListener("wheel", (e)=>{
+						e.preventDefault();
+						li.scrollLeft += e.deltaY;
 					});
 				});
 			}
