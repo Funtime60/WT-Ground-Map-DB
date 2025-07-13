@@ -7,18 +7,17 @@
 		<title>HTML 5 Boilerplate</title>
 		<link rel="stylesheet" href="style.css">
 		<script type="module">
-			import { Octokit, App } from "https://esm.sh/octokit";
+			//import { Octokit, App } from "https://esm.sh/octokit";
 			import { collectData, filePath } from "./collectData.js";
-			/*/
-			//*/
+			
 			document.addEventListener("DOMContentLoaded", (event) => {
 				const form = document.querySelector("form#mainForm");
 				form.addEventListener("submit", (e) => {
 					postAllData(form);
 				});
 			});
-			async function dummy_collectData(data) {
-				return {};
+			async function dummy_collectData(data, mapName) {
+				return {mapName: {}};
 			}
 			function postAllData(form) {
 				const currentMapName = form.current_map_name.value;
@@ -29,8 +28,17 @@
 				console.log("Map Type:", mapType);
 				console.log("Type Iteration:", typeIteration);
 
-				dummy_collectData({}).then((data) => {
-					alert(`[${mapType}${typeIteration > 0 ? ` #${typeIteration}`: ''}] ${currentMapName}`);
+				dummy_collectData({}, `[${mapType}${typeIteration > 0 ? ` #${typeIteration}`: ''}] ${currentMapName}`).then((data) => {
+					let jsonse = JSON.stringify(data);
+					let blob = new Blob([jsonse], {type: "application/json"});
+					let url  = URL.createObjectURL(blob);
+
+					let a = document.createElement('a');
+					a.href        = url;
+					a.download    = "backup.json";
+					a.textContent = "Download backup.json";
+
+					form.appendChild(a);
 				});
 			};
 		</script>
