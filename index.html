@@ -15,7 +15,7 @@
 				const keys = Object.keys(data);
 				countSpan.textContent = keys.length;
 				[...listUl.children].forEach((element) => element.remove());
-				keys.forEach(key => listUl.appendChild(Object.assign(document.createElement("li"), {textContent: `[${data[key]?.battle_rating || 0.0}]${data[key]?.map_name || key} - ${data[key]?.capture_team || 'Unknown Team'} - ${data[key]?.capture_mode || 'Unknown Mode'}` })));
+				keys.forEach(key => listUl.appendChild(Object.assign(document.createElement("li"), {textContent: `[${data[key]?.battle_rating || 0.0}]${data[key]?.map_name || key} - ${data[key]?.capture_team || 'Unknown Team'} - ${data[key]?.capture_type || 'Unknown Mode'}` })));
 			}
 
 			document.addEventListener("DOMContentLoaded", (event) => {
