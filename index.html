@@ -17,9 +17,6 @@
 					postAllData(form);
 				});
 			});
-			async function dummy_collectData(data, mapName) {
-				return {mapName: {}};
-			}
 			function postAllData(form) {
 				const currentMapName = form.current_map_name.value;
 				const mapType = form.map_type.value;
@@ -33,7 +30,7 @@
 				
 				[...form.elements].forEach((element) => element.disabled = true);
 				if(form.submitted === 'Collect') {
-					dummy_collectData({}, mapName).then((new_data) => {
+					collectData({}, mapName).then((new_data) => {
 						data = new_data;
 						[...form.elements].forEach((element) => element.disabled = false);
 					});
