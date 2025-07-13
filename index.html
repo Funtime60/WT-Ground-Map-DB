@@ -30,7 +30,7 @@
 				
 				[...form.elements].forEach((element) => element.disabled = true);
 				if(form.submitted === 'Collect') {
-					collectData({}, mapName).then((new_data) => {
+					collectData(data, mapName).then((new_data) => {
 						data = new_data;
 						[...form.elements].forEach((element) => element.disabled = false);
 					});
