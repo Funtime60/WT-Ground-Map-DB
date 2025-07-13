@@ -15,7 +15,14 @@
 				const keys = Object.keys(data);
 				countSpan.textContent = keys.length;
 				[...listUl.children].forEach((element) => element.remove());
-				keys.forEach(key => listUl.appendChild(Object.assign(document.createElement("li"), {textContent: data[key].full_ID || key})));
+				keys.forEach(key => {
+					const li = Object.assign(document.createElement("li"), {textContent: data[key].full_ID || key});
+					listUl.appendChild(li);
+					li.addEventListener("contextmenu", () => {
+						const mapData = data[key];
+						alert(`Map Name: ${mapData.map_name}\nBattle Rating: ${mapData.battle_rating}\nCapture Team: ${mapData.capture_team}\nCapture Type: ${mapData.capture_type}`);
+					});
+				});
 			}
 
 			document.addEventListener("DOMContentLoaded", (event) => {
