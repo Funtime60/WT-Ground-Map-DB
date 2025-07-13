@@ -146,11 +146,12 @@ form#mainForm #collectionCount span {
 }
 
 form#mainForm #collectionList {
-	list-style: disc inside;
-	margin-top: 0.5rem;
+	list-style: none;
+	margin-top: 0.5rem 0;
 	color: var(--color-collection-list);
-	font-size: 0.98rem;
-	padding-left: 1rem;
+	font-size: 1rem;
+	padding-left: 0;
+	text-align: center;
 }
 
 form#mainForm #collectionList li {
@@ -158,6 +159,12 @@ form#mainForm #collectionList li {
 	padding: 0.1rem 0.3rem;
 	border-radius: 0.3rem;
 	background: var(--color-collection-list-bg);
+	width: 95%;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	scrollbar-width: none;
 }
 
 @media (max-width: 500px) {
