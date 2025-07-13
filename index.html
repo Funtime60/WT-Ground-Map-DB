@@ -14,7 +14,7 @@
 				const listUl = document.querySelector('ul#collectionList');
 				const keys = Object.keys(data);
 				countSpan.textContent = keys.length;
-				[...listUl.elements].forEach((element) => element.remove());
+				[...listUl.children].forEach((element) => element.remove());
 				keys.forEach(key => listUl.appendChild(Object.assign(document.createElement("li"), {textContent: data[key].mapName || key})));
 			}
 
