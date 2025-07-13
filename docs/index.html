@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <script src="index.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>HTML 5 Boilerplate</title>
+		<link rel="stylesheet" href="style.css">
+		<script type="module">
+			import { Octokit, App } from "https://esm.sh/octokit";
+		</script>
+		<script type="module">
+			import { collectData } from "../pullData.js";
+			collectData({}).then((data) => {
+				console.log("Data collected:", data);
+			}).catch((error) => {
+				console.error("Error collecting data:", error);
+			});
+		</script>
+	</head>
+	<body>
+	</body>
 </html>

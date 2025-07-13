@@ -31,25 +31,30 @@ async function main() {
 		logger.debug(`No file found, creating new file: ${filePath}`);
 	}
 	// const mapName = await new Promise((resolve) => lineInterface.question(`Enter map name for fingerprint: `, (mapName) => resolve(mapName)));	// Ask the user for a map name
-	const mapName = "test";
-	logger.debug(`Map Name: ${mapName}`);											// Log the map name
-	const mapFingerprintRaw = {
-		mission: await fetch(`${pullURL}/mission.json` ).then(res => res.json()),
-		map_obj: (await fetch(`${pullURL}/map_obj.json` ).then(res => res.json())).filter(obj => obj.type == "airfield" || obj.type == "ground_model" && obj.icon == "Airdefence" || obj.type == "capture_zone" || obj.type.match(/^respawn_base_.+/)),	// Fetch the map objects from the server and filter them to only include airfields, ground models with the Airdefence icon, and capture zones
-		mapInfo: await fetch(`${pullURL}/map_info.json`).then(res => res.json())
-	};	// Fetch the fingerprint data from the server and parse it as JSON
-	const teams = setTeams(mapFingerprintRaw.map_obj);													// Set the teams based on the airfields in the data
-	mapFingerprintRaw.map_obj.map((obj) => Object.assign(obj, {team: getTeam(obj['color[]'], teams)}));	// Assign the team color to each object in the map objects array
-	mapFingerprintRaw.map_obj.map((obj) => Object.assign(obj, {hash: getHash(obj)}));
-	mapFingerprintRaw['capture type'] = isGroundMap(mapFingerprintRaw.map_obj) ? "ground" : "air";	// Check if the map is an air map and set the airVersion accordingly
-	if(data[mapName]?.append) {														// If the map name does not exist in the data, create an empty array for it
-		data[mapName].append(mapFingerprintRaw);
-	}else if(data[mapName]) {
-		data[mapName] = [data[mapName], mapFingerprintRaw];						// If the map name exists, append the new fingerprint to the existing array
-	}else {
-		data[mapName] = mapFingerprintRaw;
-	}
+	data = await collectData(data);
 	fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');			// Write the updated data back to the file
+}
+
+async function collectData(oldData) {
+	const mapName = "test";
+	logger.debug(`Map Name: ${mapName}`); // Log the map name
+	const mapFingerprintRaw = {
+		mission: await fetch(`${pullURL}/mission.json`).then(res => res.json()),
+		map_obj: (await fetch(`${pullURL}/map_obj.json`).then(res => res.json())).filter(obj => obj.type == "airfield" || obj.type == "ground_model" && obj.icon == "Airdefence" || obj.type == "capture_zone" || obj.type.match(/^respawn_base_.+/)), // Fetch the map objects from the server and filter them to only include airfields, ground models with the Airdefence icon, and capture zones
+		mapInfo: await fetch(`${pullURL}/map_info.json`).then(res => res.json())
+	}; // Fetch the fingerprint data from the server and parse it as JSON
+	const teams = setTeams(mapFingerprintRaw.map_obj); // Set the teams based on the airfields in the data
+	mapFingerprintRaw.map_obj.map((obj) => Object.assign(obj, { team: getTeam(obj['color[]'], teams) })); // Assign the team color to each object in the map objects array
+	mapFingerprintRaw.map_obj.map((obj) => Object.assign(obj, { hash: getHash(obj) }));
+	mapFingerprintRaw['capture type'] = isGroundMap(mapFingerprintRaw.map_obj) ? "ground" : "air"; // Check if the map is an air map and set the airVersion accordingly
+	if(oldData[mapName]?.append) { // If the map name does not exist in the data, create an empty array for it
+		oldData[mapName].append(mapFingerprintRaw);
+	}else if (oldData[mapName]) {
+		oldData[mapName] = [oldData[mapName], mapFingerprintRaw]; // If the map name exists, append the new fingerprint to the existing array
+	}else {
+		oldData[mapName] = mapFingerprintRaw;
+	}
+	return oldData;
 }
 
 // main().then((returnCode) => process.exit(returnCode));
