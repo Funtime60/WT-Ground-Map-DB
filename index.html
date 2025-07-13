@@ -9,6 +9,7 @@
 		<script type="module">
 			//import { Octokit, App } from "https://esm.sh/octokit";
 			import { collectData, filePath } from "./collectData.js";
+			let data = {};
 			
 			document.addEventListener("DOMContentLoaded", (event) => {
 				const form = document.querySelector("form#mainForm");
@@ -29,13 +30,22 @@
 				console.log("Map Type:", mapType);
 				console.log("Type Iteration:", typeIteration);
 				console.log("Map Name:", mapName);
-
-				dummy_collectData({}, mapName).then((data) => {
+				
+				[...form.elements].forEach((element) => element.disabled = true);
+				if(form.submitted === 'Collect') {
+					dummy_collectData({}, mapName).then((new_data) => {
+						data = new_data;
+						[...form.elements].forEach((element) => element.disabled = false);
+					});
+				}else {
 					let a = Object.assign(document.createElement('a'), {href: URL.createObjectURL(new Blob([JSON.stringify(data)], {type: "application/json"})), download: filePath, textContent: "Downloading json data..."});
 					form.appendChild(a);
 					a.click();
 					form.removeChild(a);
-				});
+					data = {};
+					[...form.elements].forEach((element) => element.disabled = false);
+				}
+				
 			};
 		</script>
 	</head>
@@ -57,7 +67,8 @@
 				<label for="type_iteration">Type Iteration</label>
 				<input type="number" id="type_iteration" name="type_iteration" min="0">
 			</div>
-			<button type="submit">Submit</button>
+			<button type="submit" onclick="this.form.submitted='Collect';" >Collect Fingerprint</button>
+			<button type="submit" onclick="this.form.submitted='Download';">Download Collection</button>
 		</form>
 	</body>
 </html>
