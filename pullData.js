@@ -35,7 +35,7 @@ async function main() {
 	fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');			// Write the updated data back to the file
 }
 
-async function collectData(oldData) {
+export async function collectData(oldData) {
 	const mapName = "test";
 	logger.debug(`Map Name: ${mapName}`); // Log the map name
 	const mapFingerprintRaw = {
