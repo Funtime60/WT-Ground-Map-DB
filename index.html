@@ -2,12 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>HTML 5 Boilerplate</title>
-		<link rel="stylesheet" href="style.css">
+		<title>War Thunder map fingerprinting tool</title>
+		<meta name="description" content="This uses the fact that while the WebUI for the game doesn't allow CORS, the endpoints it uses do. It collects data from 3 enpoints that refer to the map and stores them as JSON with a few extra details like team and a hash.">
+ 		<link rel="stylesheet" href="style.css">
 		<script type="module">
-			//import { Octokit, App } from "https://esm.sh/octokit";
 			import { collectData, filePath } from "./collectData.js";
 			let data = {};
 			

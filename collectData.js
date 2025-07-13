@@ -6,17 +6,18 @@ export async function collectData(oldData, mapName) {
 		mission: await fetch(`${pullURL}/mission.json`).then(res => res.json()),
 		map_obj: (await fetch(`${pullURL}/map_obj.json`).then(res => res.json())).filter(obj => obj.type == "airfield" || obj.type == "ground_model" && obj.icon == "Airdefence" || obj.type == "capture_zone" || obj.type.match(/^respawn_base_.+/)), // Fetch the map objects from the server and filter them to only include airfields, ground models with the Airdefence icon, and capture zones
 		mapInfo: await fetch(`${pullURL}/map_info.json`).then(res => res.json())
-	}; // Fetch the fingerprint data from the server and parse it as JSON
-	const teams = setTeams(mapFingerprintRaw.map_obj); // Set the teams based on the airfields in the data
-	mapFingerprintRaw.map_obj.map((obj) => Object.assign(obj, { team: getTeam(obj['color[]'], teams) })); // Assign the team color to each object in the map objects array
-	mapFingerprintRaw.map_obj.map((obj) => Object.assign(obj, { hash: getHash(obj) }));
-	mapFingerprintRaw['capture type'] = isGroundMap(mapFingerprintRaw.map_obj) ? "ground" : "air"; // Check if the map is an air map and set the airVersion accordingly
-	if(oldData[mapName]?.append) { // If the map name does not exist in the data, create an empty array for it
+	};																											// Fetch the fingerprint data from the server and parse it as JSON
+	const teams = setTeams(mapFingerprintRaw.map_obj);															// Set the teams based on the airfields in the data
+	mapFingerprintRaw.map_obj.forEach((obj) => Object.assign(obj, { team: getTeam(obj['color[]'], teams) }));	// Assign the team color to each object in the map objects array
+	mapFingerprintRaw.map_obj.forEach((obj) => Object.assign(obj, { hash: getHash(obj) }));
+	mapFingerprintRaw.map_obj.forEach((obj) => {delete obj[color] ; delete obj['color[]'];});					// Remove the color property from each object in the map objects array since it varies by team while the team field is agnostic
+	mapFingerprintRaw['capture type'] = isGroundMap(mapFingerprintRaw.map_obj) ? "ground" : "air";				// Check if the map is an air map and set the airVersion accordingly
+	if(oldData[mapName]?.append) {																				// If the map name exists and has an array append new data to it
 		oldData[mapName].append(mapFingerprintRaw);
-	}else if (oldData[mapName]) {
-		oldData[mapName] = [oldData[mapName], mapFingerprintRaw]; // If the map name exists, append the new fingerprint to the existing array
+	}else if(oldData[mapName]) {
+		oldData[mapName] = [oldData[mapName], mapFingerprintRaw];												// If the map name exists and is not an array, convert it to an array including the new data
 	}else {
-		oldData[mapName] = mapFingerprintRaw;
+		oldData[mapName] = mapFingerprintRaw;																	// If the map name does not exist in the data, create a new array with the fingerprint
 	}
 	return oldData;
 }

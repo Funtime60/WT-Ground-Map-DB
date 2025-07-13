@@ -1,0 +1,86 @@
+/* Reset some defaults */
+body, h1, h2, h3, h4, h5, h6, p, form, input, select, button, div {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+body {
+	background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+form#mainForm {
+	background: #fff;
+	padding: 2.5rem 2rem;
+	border-radius: 1.2rem;
+	box-shadow: 0 8px 32px rgba(60, 80, 120, 0.18);
+	min-width: 320px;
+	max-width: 400px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+form#mainForm div {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+form#mainForm label {
+	font-size: 1rem;
+	color: #3a4a6b;
+	font-weight: 500;
+	margin-bottom: 0.2rem;
+}
+
+form#mainForm input[type="text"],
+form#mainForm input[type="number"],
+form#mainForm select {
+	padding: 0.7rem 0.9rem;
+	border: 1px solid #bfcbe3;
+	border-radius: 0.6rem;
+	font-size: 1rem;
+	background: #f7fafd;
+	transition: border-color 0.2s;
+}
+
+form#mainForm input:focus,
+form#mainForm select:focus {
+	border-color: #6a8cff;
+	outline: none;
+}
+
+form#mainForm button[type="submit"] {
+	padding: 0.8rem 1.2rem;
+	border: none;
+	border-radius: 0.7rem;
+	background: linear-gradient(90deg, #6a8cff 0%, #4e6ae6 100%);
+	color: #fff;
+	font-size: 1.05rem;
+	font-weight: 600;
+	cursor: pointer;
+	margin-top: 0.5rem;
+	box-shadow: 0 2px 8px rgba(60, 80, 120, 0.08);
+	transition: background 0.2s, transform 0.1s;
+}
+
+form#mainForm button[type="submit"]:hover,
+form#mainForm button[type="submit"]:focus {
+	background: linear-gradient(90deg, #4e6ae6 0%, #6a8cff 100%);
+	transform: translateY(-2px) scale(1.03);
+}
+
+@media (max-width: 500px) {
+	form#mainForm {
+		padding: 1.2rem 0.5rem;
+		min-width: unset;
+		max-width: 98vw;
+	}
+}
