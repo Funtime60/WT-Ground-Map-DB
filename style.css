@@ -52,7 +52,7 @@ form#mainForm {
 	border-radius: 1.2rem;
 	box-shadow: 0 8px 32px var(--color-form-shadow);
 	min-width: 320px;
-	max-width: 480px;
+	max-width: 640px;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
