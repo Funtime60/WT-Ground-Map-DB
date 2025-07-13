@@ -19,16 +19,18 @@
 				const currentMapName = form.current_map_name.value;
 				const mapType = form.map_type.value;
 				const typeIteration = form.type_iteration.value;
+				const battleRating = form.battle_rating.value;
 				const mapName = `[${mapType}${typeIteration > 0 ? ` #${typeIteration}`: ''}] ${currentMapName}`;
 
 				console.log("Current Map Name:", currentMapName);
 				console.log("Map Type:", mapType);
 				console.log("Type Iteration:", typeIteration);
+				console.log("Battle Rating:", battleRating);
 				console.log("Map Name:", mapName);
 				
 				[...form.elements].forEach((element) => element.disabled = true);
 				if(form.submitted === 'Collect') {
-					collectData(data, mapName).then((new_data) => {
+					collectData(data, mapName, battleRating).then((new_data) => {
 						data = new_data;
 						[...form.elements].forEach((element) => element.disabled = false);
 					});
@@ -52,15 +54,65 @@
 			</div>
 			<div>
 				<label for="map_type">Map Type</label>
-				<select id="map_type" name="map_type" required>
+				<select id="map_type" name="map_type" required list="typeNumbers">
 					<option value="Battle"    >Battle</option>
 					<option value="Conquest"  >Conquest</option>
 					<option value="Domination">Domination</option>
 				</select>
+				<datalist id="typeNumbers">
+					<option value="1"></option>
+					<option value="2"></option>
+					<option value="3"></option>
+				</datalist>
 			</div>
 			<div>
 				<label for="type_iteration">Type Iteration</label>
 				<input type="number" id="type_iteration" name="type_iteration" min="0">
+			</div>
+			<div>
+				<label for="battle_rating">Battle Rating</label>
+				<input type="text" id="battle_rating" name="battle_rating" min="1.0" list="battleRatings" required>
+				<datalist id="battleRatings">
+					<option value="1.0"></option>
+					<option value="1.3"></option>
+					<option value="1.7"></option>
+					<option value="2.0"></option>
+					<option value="2.3"></option>
+					<option value="2.7"></option>
+					<option value="3.0"></option>
+					<option value="3.3"></option>
+					<option value="3.7"></option>
+					<option value="4.0"></option>
+					<option value="4.3"></option>
+					<option value="4.7"></option>
+					<option value="5.0"></option>
+					<option value="5.3"></option>
+					<option value="5.7"></option>
+					<option value="6.0"></option>
+					<option value="6.3"></option>
+					<option value="6.7"></option>
+					<option value="7.0"></option>
+					<option value="7.3"></option>
+					<option value="7.7"></option>
+					<option value="8.0"></option>
+					<option value="8.3"></option>
+					<option value="8.7"></option>
+					<option value="9.0"></option>
+					<option value="9.3"></option>
+					<option value="9.7"></option>
+					<option value="10.0"></option>
+					<option value="10.3"></option>
+					<option value="10.7"></option>
+					<option value="11.0"></option>
+					<option value="11.3"></option>
+					<option value="11.7"></option>
+					<option value="12.0"></option>
+					<option value="12.3"></option>
+					<option value="12.7"></option>
+					<option value="13.0"></option>
+					<option value="13.3"></option>
+					<option value="13.7"></option>
+				</datalist>
 			</div>
 			<button type="submit" onclick="this.form.submitted='Collect';" >Collect Fingerprint</button>
 			<button type="submit" onclick="this.form.submitted='Download';">Download Collection</button>
