@@ -23,22 +23,18 @@
 				const currentMapName = form.current_map_name.value;
 				const mapType = form.map_type.value;
 				const typeIteration = form.type_iteration.value;
+				const mapName = `[${mapType}${typeIteration > 0 ? ` #${typeIteration}`: ''}] ${currentMapName}`;
 
 				console.log("Current Map Name:", currentMapName);
 				console.log("Map Type:", mapType);
 				console.log("Type Iteration:", typeIteration);
+				console.log("Map Name:", mapName);
 
-				dummy_collectData({}, `[${mapType}${typeIteration > 0 ? ` #${typeIteration}`: ''}] ${currentMapName}`).then((data) => {
-					let jsonse = JSON.stringify(data);
-					let blob = new Blob([jsonse], {type: "application/json"});
-					let url  = URL.createObjectURL(blob);
-
-					let a = document.createElement('a');
-					a.href        = url;
-					a.download    = "backup.json";
-					a.textContent = "Download backup.json";
-
+				dummy_collectData({}, mapName).then((data) => {
+					let a = Object.assign(document.createElement('a'), {href: URL.createObjectURL(new Blob([JSON.stringify(data)], {type: "application/json"})), download: filePath, textContent: "Downloading json data..."});
 					form.appendChild(a);
+					a.click();
+					form.removeChild(a);
 				});
 			};
 		</script>
