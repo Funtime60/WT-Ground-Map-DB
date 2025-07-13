@@ -30,7 +30,7 @@
 				console.log("Type Iteration:", typeIteration);
 
 				dummy_collectData({}).then((data) => {
-					alert(`Map Name: ${currentMapName}, Map Type: ${mapType}, Type Iteration: ${typeIteration}`);
+					alert(`[${mapType}${typeIteration > 0 ? ` #${typeIteration}`: ''}] ${currentMapName}`);
 				});
 			};
 		</script>
