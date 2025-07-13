@@ -10,18 +10,26 @@
 			let data = {};
 
 			function updateCollectionInfo() {
+				updateCollectionCount();
+				updateCollectionList();
+			}
+			function updateCollectionCount() {
 				const countSpan = document.querySelector('h2#collectionCount > span');
+				countSpan.textContent = Object.keys(data).length;
+			}
+			function updateCollectionList() {
 				const listUl = document.querySelector('ul#collectionList');
-				const keys = Object.keys(data);
-				countSpan.textContent = keys.length;
 				[...listUl.children].forEach((element) => element.remove());
-				keys.forEach(key => {
+				Object.keys(data).forEach(key => {
 					const li = Object.assign(document.createElement("li"), {textContent: data[key].full_ID || key});
 					listUl.appendChild(li);
 					li.addEventListener("contextmenu", (e) => {
 						e.preventDefault();
-						const mapData = data[key];
-						alert(`Map Name: ${mapData.map_name}\nBattle Rating: ${mapData.battle_rating}\nCapture Team: ${mapData.capture_team}\nCapture Type: ${mapData.capture_type}`);
+						if(confirm(`Are you sure you want to delete the entry "${li.textContent}"?`)) {
+							delete data[key];
+							updateCollectionCount();
+							li.remove();
+						}
 					});
 					li.addEventListener("wheel", (e)=>{
 						e.preventDefault();
