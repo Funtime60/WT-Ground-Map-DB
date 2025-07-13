@@ -15,7 +15,15 @@
 				const keys = Object.keys(data);
 				countSpan.textContent = keys.length;
 				[...listUl.children].forEach((element) => element.remove());
-				keys.forEach(key => listUl.appendChild(Object.assign(document.createElement("li"), {textContent: data[key].mapName || key})));
+				keys.forEach(key => {
+					const li = document.createElement("li");
+					const spinner = document.createElement("div");
+					const container = document.createElement("div");
+					container.textContent = data[key].mapName || key;
+					li.appendChild(spinner);
+					spinner.appendChild(container);
+					listUl.appendChild(li);
+				});
 			}
 
 			document.addEventListener("DOMContentLoaded", (event) => {
