@@ -8,13 +8,22 @@
 		<script type="module">
 			import { collectData, filePath } from "./collectData.js";
 			let data = {};
-			
+
+			function updateCollectionInfo() {
+				const countSpan = document.querySelector('h2#collectionCount > span');
+				const listUl = document.querySelector('ul#collectionList');
+				const keys = Object.keys(data);
+				countSpan.textContent = keys.length;
+				[...listUl.elements].forEach((element) => element.remove());
+				keys.forEach(key => listUl.appendChild(Object.assign(document.createElement("li"), {textContent: data[key].mapName || key})));
+			}
+
 			document.addEventListener("DOMContentLoaded", (event) => {
 				const form = document.querySelector("form#mainForm");
-				form.addEventListener("submit", (e) => {
-					postAllData(form);
-				});
+				form.addEventListener("submit", (e) => postAllData(form));
+				updateCollectionInfo();
 			});
+
 			function postAllData(form) {
 				const currentMapName = form.current_map_name.value;
 				const mapType = form.map_type.value;
@@ -32,6 +41,7 @@
 				if(form.submitted === 'Collect') {
 					collectData(data, mapName, battleRating).then((new_data) => {
 						data = new_data;
+						updateCollectionInfo();
 						[...form.elements].forEach((element) => element.disabled = false);
 					});
 				}else {
@@ -40,6 +50,7 @@
 					a.click();
 					form.removeChild(a);
 					data = {};
+					updateCollectionInfo();
 					[...form.elements].forEach((element) => element.disabled = false);
 				}
 				
@@ -115,6 +126,13 @@
 				</datalist>
 			</div>
 			<button type="submit" onclick="this.form.submitted='Collect';" >Collect Fingerprint</button>
+			<div id="collectionInfo">
+				<h2 id="collectionCount">Collection Count: <span>0</span></h2>
+				<hr>
+				<ul id="collectionList">
+					<!-- Collection items will be dynamically added here -->
+				</ul>
+			</div>
 			<button type="submit" onclick="this.form.submitted='Download';">Download Collection</button>
 		</form>
 	</body>

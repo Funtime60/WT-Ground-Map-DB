@@ -1,4 +1,36 @@
-/* Reset some defaults */
+:root {
+	--color-border: #393e6e;
+	--color-main-secondary: #eebbc3;
+	--color-main-primary: #232946;
+	--color-aux-primary: #1a1a2e;
+	--color-aux-secondary: #15162b;
+
+	
+	--color-bg-gradient-start: var(--color-main-primary);
+	--color-bg-gradient-end: var(--color-aux-primary);
+	--color-form-bg: var(--color-main-primary);
+	--color-form-shadow: rgba(30, 40, 60, 0.28);
+	--color-form-border: var(--color-border);
+	--color-label: var(--color-main-secondary);
+	--color-input-bg: var(--color-aux-secondary);
+	--color-input-text: var(--color-main-secondary);
+	--color-input-focus-bg: var(--color-main-primary);
+	--color-button-bg-gradient-start: var(--color-border);
+	--color-button-bg-gradient-end: var(--color-main-secondary);
+	--color-button-hover-bg-gradient-start: var(--color-button-bg-gradient-end);
+	--color-button-hover-bg-gradient-end: var(--color-button-bg-gradient-start);
+	--color-button-text: var(--color-main-primary);
+	--color-button-hover-text: white;
+	--color-collection-bg: var(--color-aux-secondary);
+	--color-collection-border: var(--color-border);
+	--color-collection-shadow: rgba(30, 40, 60, 0.10);
+	--color-collection-title: var(--color-main-secondary);
+	--color-collection-count: var(--color-main-secondary);
+	--color-collection-list: var(--color-main-secondary);
+	--color-collection-list-bg: var(--color-main-primary);
+	--color-button-shadow: rgba(30, 40, 60, 0.18);
+}
+
 body, h1, h2, h3, h4, h5, h6, p, form, input, select, button, div {
 	margin: 0;
 	padding: 0;
@@ -7,7 +39,7 @@ body, h1, h2, h3, h4, h5, h6, p, form, input, select, button, div {
 }
 
 body {
-	background: linear-gradient(120deg, #232946 0%, #1a1a2e 100%);
+	background: linear-gradient(120deg, var(--color-bg-gradient-start) 0%, var(--color-bg-gradient-end) 100%);
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
@@ -15,20 +47,21 @@ body {
 }
 
 form#mainForm {
-	background: #232946;
+	background: var(--color-form-bg);
 	padding: 2.5rem 2rem;
 	border-radius: 1.2rem;
-	box-shadow: 0 8px 32px rgba(30, 40, 60, 0.28);
+	box-shadow: 0 8px 32px var(--color-form-shadow);
 	min-width: 320px;
-	max-width: 400px;
+	max-width: 480px;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	gap: 1.5rem;
-	border: 1px solid #393e6e;
+	border: 1px solid var(--color-form-border);
 }
 
-form#mainForm div {
+form#mainForm div,
+form#mainForm #collectionInfo {
 	display: flex;
 	flex-direction: column;
 	gap: 0.5rem;
@@ -36,7 +69,7 @@ form#mainForm div {
 
 form#mainForm label {
 	font-size: 1rem;
-	color: #eebbc3;
+	color: var(--color-label);
 	font-weight: 500;
 	margin-bottom: 0.2rem;
 }
@@ -45,18 +78,18 @@ form#mainForm input[type="text"],
 form#mainForm input[type="number"],
 form#mainForm select {
 	padding: 0.7rem 0.9rem;
-	border: 1px solid #393e6e;
+	border: 1px solid var(--color-form-border);
 	border-radius: 0.6rem;
 	font-size: 1rem;
-	background: #15162b;
-	color: #eebbc3;
+	background: var(--color-input-bg);
+	color: var(--color-input-text);
 	transition: border-color 0.2s, background 0.2s;
 }
 
 form#mainForm input:focus,
 form#mainForm select:focus {
-	border-color: #eebbc3;
-	background: #232946;
+	border-color: var(--color-label);
+	background: var(--color-input-focus-bg);
 	outline: none;
 }
 
@@ -64,21 +97,67 @@ form#mainForm button[type="submit"] {
 	padding: 0.8rem 1.2rem;
 	border: none;
 	border-radius: 0.7rem;
-	background: linear-gradient(90deg, #393e6e 0%, #eebbc3 100%);
-	color: #232946;
+	background: linear-gradient(90deg, var(--color-button-bg-gradient-start) 0%, var(--color-button-bg-gradient-end) 100%);
+	color: var(--color-button-text);
 	font-size: 1.05rem;
 	font-weight: 600;
 	cursor: pointer;
 	margin-top: 0.5rem;
-	box-shadow: 0 2px 8px rgba(30, 40, 60, 0.18);
+	box-shadow: 0 2px 8px var(--color-button-shadow);
 	transition: background 0.2s, transform 0.1s, color 0.2s;
 }
 
 form#mainForm button[type="submit"]:hover,
 form#mainForm button[type="submit"]:focus {
-	background: linear-gradient(90deg, #eebbc3 0%, #393e6e 100%);
-	color: #fff;
+	background: linear-gradient(90deg, var(--color-button-hover-bg-gradient-start) 0%, var(--color-button-hover-bg-gradient-end) 100%);
+	color: var(--color-button-hover-text);
 	transform: translateY(-2px) scale(1.03);
+}
+
+form#mainForm #collectionInfo {
+	background: var(--color-collection-bg);
+	border-radius: 0.8rem;
+	padding: 1rem 0.8rem;
+	margin: 1rem 0;
+	border: 1px solid var(--color-collection-border);
+	box-shadow: 0 2px 8px var(--color-collection-shadow);
+}
+
+form#mainForm #collectionInfo h2 {
+	color: var(--color-collection-title);
+	font-size: 1.1rem;
+	font-weight: 600;
+	width: 100%;
+}
+
+form#mainForm #collectionInfo hr {
+	color: var(--color-collection-border);
+	width: 100%;
+}
+
+form#mainForm #collectionCount {
+	color: var(--color-collection-count);
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+form#mainForm #collectionCount span {
+	float: right;
+}
+
+form#mainForm #collectionList {
+	list-style: disc inside;
+	margin-top: 0.5rem;
+	color: var(--color-collection-list);
+	font-size: 0.98rem;
+	padding-left: 1rem;
+}
+
+form#mainForm #collectionList li {
+	margin-bottom: 0.2rem;
+	padding: 0.1rem 0.3rem;
+	border-radius: 0.3rem;
+	background: var(--color-collection-list-bg);
 }
 
 @media (max-width: 500px) {

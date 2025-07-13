@@ -10,7 +10,7 @@ export async function collectData(oldData, mapName, battleRating) {
 	const teams = setTeams(mapFingerprintRaw.map_obj);															// Set the teams based on the airfields in the data
 	mapFingerprintRaw.map_obj.forEach((obj) => Object.assign(obj, { team: getTeam(obj['color[]'], teams) }));	// Assign the team color to each object in the map objects array
 	mapFingerprintRaw.map_obj.forEach((obj) => Object.assign(obj, { hash: getHash(obj) }));
-	mapFingerprintRaw.map_obj.forEach((obj) => {delete obj[color] ; delete obj['color[]'];});					// Remove the color property from each object in the map objects array since it varies by team while the team field is agnostic
+	mapFingerprintRaw.map_obj.forEach((obj) => {delete obj['color'] ; delete obj['color[]'];});					// Remove the color property from each object in the map objects array since it varies by team while the team field is agnostic
 	mapFingerprintRaw['capture_type'] = isGroundMap(mapFingerprintRaw.map_obj) ? "ground" : "air";				// Check if the map is an air map and set the airVersion accordingly
 	mapFingerprintRaw['map_name'] = mapName;
 	mapFingerprintRaw['battle_rating'] = battleRating;
