@@ -15,13 +15,8 @@ export async function collectData(oldData, mapName, battleRating) {
 	mapFingerprintRaw['capture_type'] = isGroundMap(mapFingerprintRaw.map_obj) ? "ground" : "air";				// Check if the map is an air map and set the airVersion accordingly
 	mapFingerprintRaw['map_name'] = mapName;
 	mapFingerprintRaw['battle_rating'] = battleRating;
-	if(oldData[mapName]?.append) {																				// If the map name exists and has an array append new data to it
-		oldData[mapName].append(mapFingerprintRaw);
-	}else if(oldData[mapName]) {
-		oldData[mapName] = [oldData[mapName], mapFingerprintRaw];												// If the map name exists and is not an array, convert it to an array including the new data
-	}else {
-		oldData[mapName] = mapFingerprintRaw;																	// If the map name does not exist in the data, create a new array with the fingerprint
-	}
+	mapFingerprintRaw['full_ID'] = `[${data[key]?.battle_rating || 0.0}]${data[key]?.map_name || key} - ${data[key]?.capture_team || 'Unknown Team'} - ${data[key]?.capture_type || 'Unknown Mode'}`;
+	oldData[mapFingerprintRaw.full_ID] = mapFingerprintRaw;
 	return oldData;
 }
 
