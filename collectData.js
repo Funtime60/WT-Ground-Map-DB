@@ -1,7 +1,7 @@
 export const filePath = 'mapFingerprintRaw.json';
 const pullURL = "http://127.0.0.1:8111/"
 
-export async function collectData(oldData, mapName) {
+export async function collectData(oldData, mapName, battleRating) {
 	const mapFingerprintRaw = {
 		mission: await fetch(`${pullURL}/mission.json`).then(res => res.json()),
 		map_obj: (await fetch(`${pullURL}/map_obj.json`).then(res => res.json())).filter(obj => obj.type == "airfield" || obj.type == "ground_model" && obj.icon == "Airdefence" || obj.type == "capture_zone" || obj.type.match(/^respawn_base_.+/)), // Fetch the map objects from the server and filter them to only include airfields, ground models with the Airdefence icon, and capture zones
@@ -11,7 +11,9 @@ export async function collectData(oldData, mapName) {
 	mapFingerprintRaw.map_obj.forEach((obj) => Object.assign(obj, { team: getTeam(obj['color[]'], teams) }));	// Assign the team color to each object in the map objects array
 	mapFingerprintRaw.map_obj.forEach((obj) => Object.assign(obj, { hash: getHash(obj) }));
 	mapFingerprintRaw.map_obj.forEach((obj) => {delete obj[color] ; delete obj['color[]'];});					// Remove the color property from each object in the map objects array since it varies by team while the team field is agnostic
-	mapFingerprintRaw['capture type'] = isGroundMap(mapFingerprintRaw.map_obj) ? "ground" : "air";				// Check if the map is an air map and set the airVersion accordingly
+	mapFingerprintRaw['capture_type'] = isGroundMap(mapFingerprintRaw.map_obj) ? "ground" : "air";				// Check if the map is an air map and set the airVersion accordingly
+	mapFingerprintRaw['map_name'] = mapName;
+	mapFingerprintRaw['battle_rating'] = battleRating;
 	if(oldData[mapName]?.append) {																				// If the map name exists and has an array append new data to it
 		oldData[mapName].append(mapFingerprintRaw);
 	}else if(oldData[mapName]) {
