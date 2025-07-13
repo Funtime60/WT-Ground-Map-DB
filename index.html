@@ -9,12 +9,12 @@
 		<script type="module">
 			import { Octokit, App } from "https://esm.sh/octokit";
 			import { collectData, filePath } from "./collectData.js";
-			window.collectData = collectData;
+			/*/
 			collectData({}).then((data) => {
 				console.log("Data collected:", data);
 			}).catch((error) => {
 				console.error("Error collecting data:", error);
-			});
+			});//*/
 			function myFunction(form) {
 				const currentMapName = form.current_map_name.value;
 				const mapType = form.map_type.value;
