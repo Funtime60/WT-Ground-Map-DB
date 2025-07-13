@@ -15,6 +15,12 @@
 			}).catch((error) => {
 				console.error("Error collecting data:", error);
 			});//*/
+			document.addEventListener("DOMContentLoaded", (event) => {
+				const form = document.querySelector("form#mainForm");
+				form.addEventListener("submit", (e) => {
+					myFunction(form);
+				});
+			});
 			function myFunction(form) {
 				const currentMapName = form.current_map_name.value;
 				const mapType = form.map_type.value;
@@ -31,7 +37,7 @@
 		</script>
 	</head>
 	<body>
-		<form action="javascript:;" onsubmit="myFunction(this)">  
+		<form id="mainForm" action="javascript:;">
 			<div>
 				<label for="current_map_name">Current Map Name</label>
 				<input type="text" id="current_map_name" name="current_map_name" required>
@@ -46,7 +52,7 @@
 			</div>
 			<div>
 				<label for="type_iteration">Type Iteration</label>
-				<input type="number" id="type_iteration" name="type_iteration" required min="0">
+				<input type="number" id="type_iteration" name="type_iteration" min="0">
 			</div>
 			<button type="submit">Submit</button>
 		</form>
