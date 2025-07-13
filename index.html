@@ -15,8 +15,40 @@
 			}).catch((error) => {
 				console.error("Error collecting data:", error);
 			});
+			function myFunction(form) {
+				const currentMapName = form.current_map_name.value;
+				const mapType = form.map_type.value;
+				const typeIteration = form.type_iteration.value;
+
+				console.log("Current Map Name:", currentMapName);
+				console.log("Map Type:", mapType);
+				console.log("Type Iteration:", typeIteration);
+
+				// Here you can add logic to handle the form submission
+				// For example, you could call collectData with these values
+				alert(`Map Name: ${currentMapName}, Map Type: ${mapType}, Type Iteration: ${typeIteration}`);
+			};
 		</script>
 	</head>
 	<body>
+		<form action="javascript:;" onsubmit="myFunction(this)">  
+			<div>
+				<label for="current_map_name">Current Map Name</label>
+				<input type="text" id="current_map_name" name="current_map_name" required>
+			</div>
+			<div>
+				<label for="map_type">Map Type</label>
+				<select id="map_type" name="map_type" required>
+					<option value="option1">Battle</option>
+					<option value="option2">Conquest</option>
+					<option value="option3">Domination</option>
+				</select>
+			</div>
+			<div>
+				<label for="type_iteration">Type Iteration</label>
+				<input type="number" id="type_iteration" name="type_iteration" required min="0">
+			</div>
+			<button type="submit">Submit</button>
+		</form>
 	</body>
 </html>
