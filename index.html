@@ -10,7 +10,7 @@
 			import { Octokit, App } from "https://esm.sh/octokit";
 		</script> -->
 		<script type="module">
-			import { collectData } from "./pullData.js";
+			import { collectData, filePath } from "./collectData.js";
 			collectData({}).then((data) => {
 				console.log("Data collected:", data);
 			}).catch((error) => {

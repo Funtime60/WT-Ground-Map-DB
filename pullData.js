@@ -6,11 +6,11 @@ const lineInterface = readline.createInterface({
 	output: process.stdout
 });
 
-import * as log4js from 'log4js';
+import log4js from 'log4js';
 const logger = log4js.getLogger('Pull');
 logger.level = "debug";
 
-import { collectData } from "./collectData.js";
+import { collectData, filePath } from "./collectData.js";
 
 async function main() {
 	let data;

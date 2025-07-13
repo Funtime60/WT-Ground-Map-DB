@@ -1,4 +1,4 @@
-const filePath = 'mapFingerprintRaw.json';
+export const filePath = 'mapFingerprintRaw.json';
 const pullURL = "http://127.0.0.1:8111/"
 
 export async function collectData(oldData, mapName) {
