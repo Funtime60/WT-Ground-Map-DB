@@ -8,15 +8,8 @@
 		<link rel="stylesheet" href="style.css">
 		<script type="module">
 			import { Octokit, App } from "https://esm.sh/octokit";
-			window.Octokit = Octokit;
-			window.App = App;
-		</script>
-		<script type="module">
 			import { collectData, filePath } from "./collectData.js";
 			window.collectData = collectData;
-			window.filePath = filePath;
-		</script>
-		<script>
 			collectData({}).then((data) => {
 				console.log("Data collected:", data);
 			}).catch((error) => {
