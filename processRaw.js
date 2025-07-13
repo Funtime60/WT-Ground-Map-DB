@@ -5,9 +5,10 @@ const log4js = require('log4js');
 const logger = log4js.getLogger('Process');
 logger.level = "debug";
 
-const filePath = 'mapFingerprintRaw.json';
+import { getHash, filePath } from "./collectData.js";
 const workingDir = 'mapFingerprints/';
 const outputDBPath = 'mapFingerprintsDB.json';
+
 
 async function main() {
 	let data;
@@ -60,6 +61,7 @@ async function main() {
 	const outputData = {x:{}, y:{}};
 	fs.readdirSync(workingDir, {withFileTypes: true}).forEach((file) => {	// Iterate over the files in the working directory
 		data = JSON.parse(fs.readFileSync(`${file.parentPath}${file.name}`, 'utf8')).map_obj;
+		// TODO: update to use the new hash field and function while chaning to use the absolute team names and map capture mode field
 		data.forEach((map_obj) => {											// Iterate over the map objects in the file
 			const xCoords = ['',...'abcdefghijklmnopqrstuvwxyz'].map((char) => map_obj[`${char}x`]).filter((value) => value != undefined);
 			const yCoords = ['',...'abcdefghijklmnopqrstuvwxyz'].map((char) => map_obj[`${char}y`]).filter((value) => value != undefined);

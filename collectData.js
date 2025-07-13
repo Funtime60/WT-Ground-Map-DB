@@ -25,7 +25,7 @@ export async function collectData(oldData, mapName) {
 function getLine() {
 	return Number(new Error().stack?.split(/\n/g)?.[2].split(/:/)?.at(-2));
 }
-function getHash(map_obj) {
+export function getHash(map_obj) {
 	const hash_obj = {};
 	[...['',...'abcdefghijklmnopqrstuvwxyz'].map((char) => [`${char}x`,`${char}y`]).flat(), 'type', 'icon'].forEach((key) => map_obj?.[key] ? hash_obj[key] = map_obj?.[key] : null);
 	return `0x${([...JSON.stringify(hash_obj).replace(/[\s":{},]/g, '')].reduce((hash, char) => 0 | (31 * hash + char.charCodeAt(0)), 0x0) >>> 0).toString(16).padStart(8, '0')}`;		// Return hash after removing constant characters and spaces from the JSON stringified object
