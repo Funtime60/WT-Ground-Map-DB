@@ -25,7 +25,7 @@
 					});
 					li.addEventListener("wheel", (e)=>{
 						e.preventDefault();
-						li.scrollLeft += e.deltaY / 5;
+						li.scrollLeft += Math.sign(e.deltaY) * (li.clientWidth/20);
 					});
 				});
 			}
