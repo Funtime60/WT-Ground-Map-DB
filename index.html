@@ -17,6 +17,9 @@
 					postAllData(form);
 				});
 			});
+			async function dummy_collectData(data) {
+				return {};
+			}
 			function postAllData(form) {
 				const currentMapName = form.current_map_name.value;
 				const mapType = form.map_type.value;
@@ -26,7 +29,7 @@
 				console.log("Map Type:", mapType);
 				console.log("Type Iteration:", typeIteration);
 
-				collectData({}).then((data) => {
+				dummy_collectData({}).then((data) => {
 					alert(`Map Name: ${currentMapName}, Map Type: ${mapType}, Type Iteration: ${typeIteration}`);
 				});
 			};
