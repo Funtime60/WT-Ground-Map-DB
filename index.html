@@ -6,11 +6,13 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>HTML 5 Boilerplate</title>
 		<link rel="stylesheet" href="style.css">
-		<!-- <script type="module">
+		<script type="module">
 			import { Octokit, App } from "https://esm.sh/octokit";
-		</script> -->
+		</script>
 		<script type="module">
 			import { collectData, filePath } from "./collectData.js";
+		</script>
+		<script>
 			collectData({}).then((data) => {
 				console.log("Data collected:", data);
 			}).catch((error) => {
