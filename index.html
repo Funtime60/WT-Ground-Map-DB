@@ -10,18 +10,14 @@
 			import { Octokit, App } from "https://esm.sh/octokit";
 			import { collectData, filePath } from "./collectData.js";
 			/*/
-			collectData({}).then((data) => {
-				console.log("Data collected:", data);
-			}).catch((error) => {
-				console.error("Error collecting data:", error);
-			});//*/
+			//*/
 			document.addEventListener("DOMContentLoaded", (event) => {
 				const form = document.querySelector("form#mainForm");
 				form.addEventListener("submit", (e) => {
-					myFunction(form);
+					postAllData(form);
 				});
 			});
-			function myFunction(form) {
+			function postAllData(form) {
 				const currentMapName = form.current_map_name.value;
 				const mapType = form.map_type.value;
 				const typeIteration = form.type_iteration.value;
@@ -30,9 +26,9 @@
 				console.log("Map Type:", mapType);
 				console.log("Type Iteration:", typeIteration);
 
-				// Here you can add logic to handle the form submission
-				// For example, you could call collectData with these values
-				alert(`Map Name: ${currentMapName}, Map Type: ${mapType}, Type Iteration: ${typeIteration}`);
+				collectData({}).then((data) => {
+					alert(`Map Name: ${currentMapName}, Map Type: ${mapType}, Type Iteration: ${typeIteration}`);
+				});
 			};
 		</script>
 	</head>
