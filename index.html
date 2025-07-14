@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>War Thunder map fingerprinting tool</title>
 		<meta name="description" content="This uses the fact that while the WebUI for the game doesn't allow CORS, the endpoints it uses do. It collects data from 3 enpoints that refer to the map and stores them as JSON with a few extra details like team and a hash.">
+		<!-- NOTE: The STAR team of a custom battle is the one used to take the preview maps so it will be the blue side. -->
  		<link rel="stylesheet" href="style.css">
 		<script type="module">
 			import { collectData, filePath } from "./collectData.js";
