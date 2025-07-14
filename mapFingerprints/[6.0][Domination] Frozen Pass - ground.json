@@ -1,0 +1,1121 @@
+{
+  "mission": {
+    "objectives": [
+      {
+        "primary": true,
+        "status": "in_progress",
+        "text": "Capture and maintain superiority over the points ╸,╹,╺"
+      }
+    ],
+    "status": "running"
+  },
+  "mapInfo": {
+    "grid_size": [
+      1060,
+      1060
+    ],
+    "grid_steps": [
+      150,
+      150
+    ],
+    "grid_zero": [
+      469.3499755859375,
+      1554.25
+    ],
+    "hud_type": 1,
+    "map_generation": 3,
+    "map_max": [
+      2048,
+      2048
+    ],
+    "map_min": [
+      0,
+      0
+    ],
+    "valid": true
+  },
+  "capture_type": "ground",
+  "map_name": "[Domination] Frozen Pass",
+  "battle_rating": "6.0",
+  "full_ID": "[6.0][Domination] Frozen Pass - ground",
+  "map_obj": [
+    {
+      "type": "airfield",
+      "blink": 0,
+      "icon": "none",
+      "icon_bg": "none",
+      "sx": 4.612285,
+      "sy": 1.469345,
+      "ex": 3.920903,
+      "ey": 1.070175,
+      "team": "team1",
+      "hash": "0x49380fbb"
+    },
+    {
+      "type": "airfield",
+      "blink": 0,
+      "icon": "none",
+      "icon_bg": "none",
+      "sx": -3.533175,
+      "sy": 1.950704,
+      "ex": -2.809633,
+      "ey": 1.613311,
+      "team": "team2",
+      "hash": "0xc8e79e6d"
+    },
+    {
+      "type": "capture_zone",
+      "blink": 0,
+      "icon": "capture_zone",
+      "icon_bg": "none",
+      "x": 0.291846,
+      "y": 0.701514,
+      "team": "neutral",
+      "hash": "0xec6a0b1c"
+    },
+    {
+      "type": "capture_zone",
+      "blink": 0,
+      "icon": "capture_zone",
+      "icon_bg": "none",
+      "x": 0.499487,
+      "y": 0.499341,
+      "team": "neutral",
+      "hash": "0x29d02c4f"
+    },
+    {
+      "type": "capture_zone",
+      "blink": 0,
+      "icon": "capture_zone",
+      "icon_bg": "none",
+      "x": 0.680615,
+      "y": 0.303662,
+      "team": "neutral",
+      "hash": "0xf0ae9fbc"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.525605,
+      "y": 0.687122,
+      "team": "team1",
+      "hash": "0x0bd5ae1c"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.518687,
+      "y": 0.695796,
+      "team": "team1",
+      "hash": "0x2f47e3cc"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.694287,
+      "y": 0.530615,
+      "team": "team1",
+      "hash": "0x9267c1ed"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.702661,
+      "y": 0.525732,
+      "team": "team1",
+      "hash": "0x038fe2ef"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.709131,
+      "y": 0.526343,
+      "team": "team1",
+      "hash": "0x75a7c08b"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.694214,
+      "y": 0.540527,
+      "team": "team1",
+      "hash": "0x25588d90"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.516162,
+      "y": 0.709545,
+      "team": "team1",
+      "hash": "0x3fb6aa12"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.702686,
+      "y": 0.535547,
+      "team": "team1",
+      "hash": "0x0fcdefaf"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.689062,
+      "y": 0.548706,
+      "team": "team1",
+      "hash": "0x0f37b766"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.534761,
+      "y": 0.694136,
+      "team": "team1",
+      "hash": "0x283a304e"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.544434,
+      "y": 0.687842,
+      "team": "team1",
+      "hash": "0x15501974"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.529639,
+      "y": 0.702572,
+      "team": "team1",
+      "hash": "0x23bac83e"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.685669,
+      "y": 0.560498,
+      "team": "team1",
+      "hash": "0xa0811717"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.711523,
+      "y": 0.53623,
+      "team": "team1",
+      "hash": "0x4f7815ff"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.702661,
+      "y": 0.545288,
+      "team": "team1",
+      "hash": "0x58ac2551"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.559097,
+      "y": 0.680877,
+      "team": "team1",
+      "hash": "0x212ad6a0"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.678418,
+      "y": 0.569311,
+      "team": "team1",
+      "hash": "0xf6318f9e"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.52376,
+      "y": 0.71613,
+      "team": "team1",
+      "hash": "0x806ff2d0"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.697607,
+      "y": 0.553613,
+      "team": "team1",
+      "hash": "0x5c8dd259"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.554175,
+      "y": 0.688895,
+      "team": "team1",
+      "hash": "0x08d3ff92"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.567983,
+      "y": 0.675956,
+      "team": "team1",
+      "hash": "0x235bd42d"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.542729,
+      "y": 0.699842,
+      "team": "team1",
+      "hash": "0x57294ec0"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.537817,
+      "y": 0.707928,
+      "team": "team1",
+      "hash": "0x4670ec39"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.522935,
+      "y": 0.726804,
+      "team": "team1",
+      "hash": "0x151288ba"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.707871,
+      "y": 0.55334,
+      "team": "team1",
+      "hash": "0x9add80cf"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.564292,
+      "y": 0.689319,
+      "team": "team1",
+      "hash": "0x3796b329"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.691895,
+      "y": 0.571191,
+      "team": "team1",
+      "hash": "0x4a0c48a1"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.532534,
+      "y": 0.721316,
+      "team": "team1",
+      "hash": "0x71db1215"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.683252,
+      "y": 0.579443,
+      "team": "team1",
+      "hash": "0xf5d801f7"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.551074,
+      "y": 0.704395,
+      "team": "team1",
+      "hash": "0xd3b2731d"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.72041,
+      "y": 0.545459,
+      "team": "team1",
+      "hash": "0x31f8dc59"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.700015,
+      "y": 0.56542,
+      "team": "team1",
+      "hash": "0x985f9fc8"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.559541,
+      "y": 0.697667,
+      "team": "team1",
+      "hash": "0x001173ab"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.531753,
+      "y": 0.731354,
+      "team": "team1",
+      "hash": "0x2310399a"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.692603,
+      "y": 0.581482,
+      "team": "team1",
+      "hash": "0x2657cdff"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.540156,
+      "y": 0.727039,
+      "team": "team1",
+      "hash": "0xdfa9475c"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.720586,
+      "y": 0.55851,
+      "team": "team1",
+      "hash": "0x1df54245"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.706152,
+      "y": 0.57318,
+      "team": "team1",
+      "hash": "0x1a472a8e"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.549033,
+      "y": 0.721954,
+      "team": "team1",
+      "hash": "0x2ddcf869"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.713921,
+      "y": 0.567229,
+      "team": "team1",
+      "hash": "0xe20f3111"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.566367,
+      "y": 0.706741,
+      "team": "team1",
+      "hash": "0x50b6c11d"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.556958,
+      "y": 0.716113,
+      "team": "team1",
+      "hash": "0xf71e0ee4"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.575449,
+      "y": 0.699287,
+      "team": "team1",
+      "hash": "0x86d9e700"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.704653,
+      "y": 0.582406,
+      "team": "team1",
+      "hash": "0x2da786a3"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.568008,
+      "y": 0.716735,
+      "team": "team1",
+      "hash": "0xdf2749b9"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.7171,
+      "y": 0.579347,
+      "team": "team1",
+      "hash": "0x9396058a"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.726733,
+      "y": 0.57627,
+      "team": "team1",
+      "hash": "0xcf4ced62"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.569531,
+      "y": 0.72666,
+      "team": "team1",
+      "hash": "0x0e554ac1"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.713467,
+      "y": 0.59232,
+      "team": "team1",
+      "hash": "0x932c7a8e"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.724336,
+      "y": 0.585614,
+      "team": "team1",
+      "hash": "0xd71965eb"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.303394,
+      "y": 0.449414,
+      "team": "team2",
+      "hash": "0x5fb3b190"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.307488,
+      "y": 0.440688,
+      "team": "team2",
+      "hash": "0xf69c99aa"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.296387,
+      "y": 0.443408,
+      "team": "team2",
+      "hash": "0xf9b29770"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.281492,
+      "y": 0.452969,
+      "team": "team2",
+      "hash": "0xef34178d"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.304834,
+      "y": 0.430347,
+      "team": "team2",
+      "hash": "0xc85cbfd3"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.285596,
+      "y": 0.444287,
+      "team": "team2",
+      "hash": "0x1f943cdc"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.291235,
+      "y": 0.436206,
+      "team": "team2",
+      "hash": "0x1ef90b9f"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.304102,
+      "y": 0.421143,
+      "team": "team2",
+      "hash": "0x2a4e2dd5"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.311328,
+      "y": 0.413623,
+      "team": "team2",
+      "hash": "0x24ceb2bb"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.295703,
+      "y": 0.426392,
+      "team": "team2",
+      "hash": "0x0137204e"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.433472,
+      "y": 0.291553,
+      "team": "team2",
+      "hash": "0x9abb9248"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.314128,
+      "y": 0.404429,
+      "team": "team2",
+      "hash": "0xbfcd5934"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.439795,
+      "y": 0.284106,
+      "team": "team2",
+      "hash": "0x9d4b0106"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.281982,
+      "y": 0.430835,
+      "team": "team2",
+      "hash": "0x4e7ff055"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.29502,
+      "y": 0.416528,
+      "team": "team2",
+      "hash": "0x91dc3a18"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.31731,
+      "y": 0.395117,
+      "team": "team2",
+      "hash": "0x6d413c59"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.304708,
+      "y": 0.406328,
+      "team": "team2",
+      "hash": "0x09a2acff"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.286816,
+      "y": 0.421631,
+      "team": "team2",
+      "hash": "0xeb7b8fc2"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.438672,
+      "y": 0.274194,
+      "team": "team2",
+      "hash": "0x6da56e11"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.431113,
+      "y": 0.280327,
+      "team": "team2",
+      "hash": "0xb53ab029"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.319727,
+      "y": 0.385571,
+      "team": "team2",
+      "hash": "0xad88ebf8"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.307664,
+      "y": 0.397061,
+      "team": "team2",
+      "hash": "0xd52b97b6"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.423471,
+      "y": 0.286406,
+      "team": "team2",
+      "hash": "0x0d3eaa25"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.272754,
+      "y": 0.424878,
+      "team": "team2",
+      "hash": "0xb2c1fd1c"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.298031,
+      "y": 0.399116,
+      "team": "team2",
+      "hash": "0x9378b710"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.278003,
+      "y": 0.417261,
+      "team": "team2",
+      "hash": "0x70687303"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.309473,
+      "y": 0.386938,
+      "team": "team2",
+      "hash": "0x1e40559d"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.437646,
+      "y": 0.264111,
+      "team": "team2",
+      "hash": "0x27c9ef55"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.286987,
+      "y": 0.406909,
+      "team": "team2",
+      "hash": "0x88d600b6"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.429434,
+      "y": 0.270908,
+      "team": "team2",
+      "hash": "0xc6f63fda"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.41355,
+      "y": 0.285889,
+      "team": "team2",
+      "hash": "0xc7582e56"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.421997,
+      "y": 0.276753,
+      "team": "team2",
+      "hash": "0xdf40ab56"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.40562,
+      "y": 0.290972,
+      "team": "team2",
+      "hash": "0x1378fe34"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.384058,
+      "y": 0.311084,
+      "team": "team2",
+      "hash": "0x0a91e0a1"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.3977,
+      "y": 0.296631,
+      "team": "team2",
+      "hash": "0x59079237"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.390283,
+      "y": 0.303027,
+      "team": "team2",
+      "hash": "0xe9f77bba"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.299487,
+      "y": 0.38877,
+      "team": "team2",
+      "hash": "0xb6c962a4"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.435913,
+      "y": 0.253394,
+      "team": "team2",
+      "hash": "0x16a5f43d"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.427808,
+      "y": 0.260205,
+      "team": "team2",
+      "hash": "0x840ce3f2"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.420542,
+      "y": 0.266973,
+      "team": "team2",
+      "hash": "0x56935334"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.410352,
+      "y": 0.276147,
+      "team": "team2",
+      "hash": "0xf5fff530"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.278631,
+      "y": 0.401025,
+      "team": "team2",
+      "hash": "0xc2a5ee39"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.401392,
+      "y": 0.28186,
+      "team": "team2",
+      "hash": "0xf3f293b8"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.381055,
+      "y": 0.300073,
+      "team": "team2",
+      "hash": "0x7a6fff81"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.388208,
+      "y": 0.292578,
+      "team": "team2",
+      "hash": "0xc020ded2"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.425391,
+      "y": 0.250708,
+      "team": "team2",
+      "hash": "0xed54c558"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.391284,
+      "y": 0.282617,
+      "team": "team2",
+      "hash": "0xed029f09"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.404883,
+      "y": 0.267896,
+      "team": "team2",
+      "hash": "0x4dee672f"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.416919,
+      "y": 0.256079,
+      "team": "team2",
+      "hash": "0x50b9efdf"
+    },
+    {
+      "type": "respawn_base_tank",
+      "blink": 0,
+      "icon": "respawn_base_tank",
+      "icon_bg": "none",
+      "x": 0.39618,
+      "y": 0.273931,
+      "team": "team2",
+      "hash": "0xbb08bbd8"
+    },
+    {
+      "type": "respawn_base_fighter",
+      "blink": 0,
+      "icon": "respawn_base_fighter",
+      "icon_bg": "none",
+      "x": 3.675322,
+      "y": 0.50501,
+      "dx": -300,
+      "dy": -0.000015,
+      "team": "team1",
+      "hash": "0xf43ac64e"
+    },
+    {
+      "type": "respawn_base_fighter",
+      "blink": 0,
+      "icon": "respawn_base_fighter",
+      "icon_bg": "none",
+      "x": -2.674199,
+      "y": 0.506592,
+      "dx": 300,
+      "dy": 0.000015,
+      "team": "team2",
+      "hash": "0xc951383e"
+    }
+  ]
+}
