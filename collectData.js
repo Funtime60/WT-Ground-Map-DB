@@ -28,10 +28,10 @@ export function getHash(map_obj) {
 	[...['',...'abcdefghijklmnopqrstuvwxyz'].map((char) => [`${char}x`,`${char}y`]).flat(), 'type', 'icon', 'team'].forEach((key) => map_obj?.[key] ? hash_obj[key] = map_obj?.[key] : null);
 	return `0x${([...JSON.stringify(hash_obj).replace(/[\s":{},]/g, '')].reduce((hash, char) => 0 | (31 * hash + char.charCodeAt(0)), 0x0) >>> 0).toString(16).padStart(8, '0')}`;		// Return hash after removing constant characters and spaces from the JSON stringified object
 }
-function getTeam(objColorArr, teams) {
+export function getTeam(objColorArr, teams) {
 	return teams[getTeamColor(objColorArr)] || 'neutral';						// Return the team color based on the object color array, or 'neutral' if no team is found
 }
-function setTeams(airfields) {
+export function setTeams(airfields) {
 	const northWestMostAF = getNorthWestMostAirfield(airfields);				// Get the north-west most airfield from the airfields array
 	const teams = {}
 	teams[getTeamColor(northWestMostAF['color[]'])] = 'team1';					// Set the team of the north-west most airfield to team1
