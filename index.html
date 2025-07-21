@@ -13,6 +13,7 @@
 			function updateCollectionInfo() {
 				updateCollectionCount();
 				updateCollectionList();
+				setFormDisable(false);
 			}
 			function updateCollectionCount() {
 				const countSpan = document.querySelector('h2#collectionCount > span');
@@ -39,6 +40,10 @@
 				});
 			}
 
+			function setFormDisable(state) {
+				[...form.elements].forEach((element) => element.disabled = state);
+			}
+
 			document.addEventListener("DOMContentLoaded", (event) => {
 				const form = document.querySelector("form#mainForm");
 				form.addEventListener("submit", (e) => postAllData(form));
@@ -46,40 +51,55 @@
 			});
 
 			function postAllData(form) {
-				const currentMapName = form.current_map_name.value;
-				const mapType = form.map_type.value;
-				const typeIteration = form.type_iteration.value;
-				const battleRating = form.battle_rating.value;
-				const mapName = `[${mapType}${typeIteration > 0 ? ` #${typeIteration}`: ''}] ${currentMapName}`;
 
-				console.log("Current Map Name:", currentMapName);
-				console.log("Map Type:", mapType);
-				console.log("Type Iteration:", typeIteration);
-				console.log("Battle Rating:", battleRating);
-				console.log("Map Name:", mapName);
-				
-				[...form.elements].forEach((element) => element.disabled = true);
-				if(form.submitted === 'Collect') {
-					collectData(data, mapName, battleRating).then((new_data) => {
-						data = new_data;
+				setFormDisable(true);
+				switch(form.submitted) {
+					case 'Collect':
+						const currentMapName = form.current_map_name.value;
+						const mapType = form.map_type.value;
+						const typeIteration = form.type_iteration.value;
+						const battleRating = form.battle_rating.value;
+						const mapName = `[${mapType}${typeIteration > 0 ? ` #${typeIteration}`: ''}] ${currentMapName}`;
+						
+						console.log("Collecting Data");
+
+						console.log("Current Map Name:", currentMapName);
+						console.log("Map Type:", mapType);
+						console.log("Type Iteration:", typeIteration);
+						console.log("Battle Rating:", battleRating);
+						console.log("Map Name:", mapName);
+
+						collectData(data, mapName, battleRating).then((new_data) => {
+							data = new_data;
+							updateCollectionInfo();
+						});
+						break;
+					case 'Download':
+						const a = Object.assign(document.createElement('a'), {href: URL.createObjectURL(new Blob([JSON.stringify(data)], {type: "application/json"})), download: filePath, textContent: "Downloading json data..."});
+						form.appendChild(a);
+						a.click();
+						form.removeChild(a);
+						data = {};
 						updateCollectionInfo();
-						[...form.elements].forEach((element) => element.disabled = false);
-					});
-				}else {
-					let a = Object.assign(document.createElement('a'), {href: URL.createObjectURL(new Blob([JSON.stringify(data)], {type: "application/json"})), download: filePath, textContent: "Downloading json data..."});
-					form.appendChild(a);
-					a.click();
-					form.removeChild(a);
-					data = {};
-					updateCollectionInfo();
-					[...form.elements].forEach((element) => element.disabled = false);
-				}
-				
+						break;
+					case 'Upload':
+						const file = Object.assign(document.createElement('input'), {type: "file", accept: ".json", textContent: "Downloading json data..."});
+						form.appendChild(file);
+						file.click();
+						form.removeChild(file);
+						data = {};
+						updateCollectionInfo();
+						break;
+					default:
+						console.log("Unknown submission!");
+						break;
+				}				
 			};
 		</script>
 	</head>
 	<body>
 		<form id="mainForm" action="javascript:;">
+			<button type="submit" onclick="this.form.submitted='Upload';">Upload Collection</button>
 			<div>
 				<label for="current_map_name">Current Map Name</label>
 				<input type="text" id="current_map_name" name="current_map_name" required>
@@ -144,9 +164,10 @@
 					<option value="13.0"></option>
 					<option value="13.3"></option>
 					<option value="13.7"></option>
+					<option value="14.0"></option>
 				</datalist>
 			</div>
-			<button type="submit" onclick="this.form.submitted='Collect';" >Collect Fingerprint</button>
+			<button type="submit" onclick="this.form.submitted='Collect';">Collect Fingerprint</button>
 			<div id="collectionInfo">
 				<h2 id="collectionCount">Collection Count: <span>0</span></h2>
 				<hr>
