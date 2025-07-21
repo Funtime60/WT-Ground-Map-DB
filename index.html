@@ -20,10 +20,10 @@
 				countSpan.textContent = Object.keys(data).length;
 			}
 			function updateCollectionList() {
-				const listUl = document.querySelector('div#collectionList');
+				const listUl = document.querySelector('ul#collectionList');
 				[...listUl.children].forEach((element) => element.remove());
 				Object.keys(data).forEach(key => {
-					const li = Object.assign(document.createElement("div"), {textContent: data[key].full_ID || key});
+					const li = Object.assign(document.createElement("li"), {textContent: data[key].full_ID || key});
 					listUl.appendChild(li);
 					li.addEventListener("contextmenu", (e) => {
 						e.preventDefault();
@@ -186,9 +186,9 @@
 			<div id="collectionInfo">
 				<h2 id="collectionCount">Collection Count: <span>0</span></h2>
 				<hr>
-				<div id="collectionList">
+				<ul id="collectionList">
 					<!-- Collection items will be dynamically added here -->
-				</div>
+				</ul>
 			</div>
 			<button type="submit" id="download" onclick="this.form.submitted='Download';">Download Collection</button>
 		</form>
