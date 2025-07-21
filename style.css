@@ -146,22 +146,24 @@ form#mainForm #collectionCount span {
 }
 
 form#mainForm #collectionList {
-	list-style: none;
 	margin: 0;
 	color: var(--color-collection-list);
 	font-size: 1rem;
 	padding-left: 0;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 form#mainForm #collectionList > * {
 	margin-bottom: 0.2rem;
-	padding: 0.1rem 0.3rem;
+	padding: 0 0.3rem;
 	border-radius: 0.3rem;
 	background: var(--color-collection-list-bg);
 	width: 95%;
-	height: 1.5rem;
-	line-height: 1.5rem;
+	height: 1.75rem;
+	line-height: 1.75rem;
 	overflow-y: hidden;
 	overflow-x: scroll;
 	scrollbar-width: none;
