@@ -52,7 +52,9 @@
 				form.addEventListener("submit", (e) => postAllData(form));
 				const upload = document.querySelector("form > button#upload");
 				upload.addEventListener("mouseenter", (e) => setFormRequirements(false));
+				upload.addEventListener("focus"     , (e) => setFormRequirements(false));
 				upload.addEventListener("mouseleave", (e) => setFormRequirements(true));
+				upload.addEventListener("blur"      , (e) => setFormRequirements(true));
 				updateCollectionInfo();
 			});
 
