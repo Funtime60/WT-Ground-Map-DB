@@ -154,7 +154,7 @@ form#mainForm #collectionList {
 	text-align: center;
 }
 
-form#mainForm #collectionList li {
+form#mainForm #collectionList > * {
 	margin-bottom: 0.2rem;
 	padding: 0.1rem 0.3rem;
 	border-radius: 0.3rem;
