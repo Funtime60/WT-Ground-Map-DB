@@ -43,10 +43,16 @@
 			function setFormDisable(state) {
 				[...form.elements].forEach((element) => element.disabled = state);
 			}
+			function setFormRequirements(state) {
+				[...document.querySelectorAll(`form [${state ? "temp_optional" : "required"}]`)].forEach((e) => {e.removeAttribute(`${state ? "temp_optional" : "required"}`);e.setAttribute(`${!state ? "temp_optional" : "required"}`, "")})
+			}
 
 			document.addEventListener("DOMContentLoaded", (event) => {
 				const form = document.querySelector("form#mainForm");
 				form.addEventListener("submit", (e) => postAllData(form));
+				const upload = document.querySelector("form > button#upload");
+				upload.addEventListener("mouseenter", (e) => setFormRequirements(false));
+				upload.addEventListener("mouseleave", (e) => setFormRequirements(true));
 				updateCollectionInfo();
 			});
 
@@ -99,7 +105,7 @@
 	</head>
 	<body>
 		<form id="mainForm" action="javascript:;">
-			<button type="submit" onclick="this.form.submitted='Upload';">Upload Collection</button>
+			<button type="submit" id="upload" onclick="this.form.submitted='Upload';">Upload Collection</button>
 			<div>
 				<label for="current_map_name">Current Map Name</label>
 				<input type="text" id="current_map_name" name="current_map_name" required>
@@ -167,7 +173,7 @@
 					<option value="14.0"></option>
 				</datalist>
 			</div>
-			<button type="submit" onclick="this.form.submitted='Collect';">Collect Fingerprint</button>
+			<button type="submit" id="collect" onclick="this.form.submitted='Collect';">Collect Fingerprint</button>
 			<div id="collectionInfo">
 				<h2 id="collectionCount">Collection Count: <span>0</span></h2>
 				<hr>
@@ -175,7 +181,7 @@
 					<!-- Collection items will be dynamically added here -->
 				</ul>
 			</div>
-			<button type="submit" onclick="this.form.submitted='Download';">Download Collection</button>
+			<button type="submit" id="download" onclick="this.form.submitted='Download';">Download Collection</button>
 		</form>
 	</body>
 </html>
