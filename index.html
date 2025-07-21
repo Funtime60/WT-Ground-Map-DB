@@ -92,11 +92,18 @@
 						break;
 					case 'Upload':
 						const file = Object.assign(document.createElement('input'), {type: "file", accept: ".json", textContent: "Downloading json data..."});
+						file.addEventListener("change", (e) => {
+							if(!file.files.length) return;
+							const reader = new FileReader();
+							reader.addEventListener("load", (e) => {
+								data = JSON.parse(reader.result);
+								updateCollectionInfo();
+							});
+							reader.readAsText(file.files[0]);
+						});
 						form.appendChild(file);
 						file.click();
 						form.removeChild(file);
-						data = {};
-						updateCollectionInfo();
 						break;
 					default:
 						console.log("Unknown submission!");
