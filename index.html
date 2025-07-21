@@ -41,7 +41,7 @@
 			}
 
 			function setFormDisable(state) {
-				[...form.elements].forEach((element) => element.disabled = state);
+				[...document.querySelector("form#mainForm").elements].forEach((element) => element.disabled = state);
 			}
 			function setFormRequirements(state) {
 				[...document.querySelectorAll(`form [${state ? "temp_optional" : "required"}]`)].forEach((e) => {e.removeAttribute(`${state ? "temp_optional" : "required"}`);e.setAttribute(`${!state ? "temp_optional" : "required"}`, "")})
